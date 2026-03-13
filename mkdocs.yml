@@ -1,0 +1,195 @@
+# Site metadata
+site_name: YAVV/YAVC Wiki
+site_description: Documentatie voor YAVV en YAVC - Verkeersmanagement software
+site_author: Coding Connected
+site_url: https://www.codingconnected.eu/yavvwiki/
+
+# Repository (for edit links)
+repo_url: https://github.com/yourusername/yavv-wiki
+edit_uri: edit/main/docs/
+
+# Theme configuration
+theme:
+  name: material
+  language: nl
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.dropdown
+    - navigation.path
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit      
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+# Plugins
+plugins:
+  - search:
+      lang: nl
+  - minify:
+      minify_html: true
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      title: Op deze pagina
+
+# Extra CSS/JS
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+# Extra configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/codingconnected
+  version:
+    provider: mike
+
+# Navigation structure - organized by topic
+nav:
+  - Home: index.md
+  - Functionaliteit:
+    - Fasenlog:
+      - functionaliteit/werking-van-de-fasenlog/index.md
+      - functionaliteit/fasenlog-weergave-opties/index.md
+      - functionaliteit/fasenlog-sortering-van-items/index.md
+      - functionaliteit/fasenlog-info-popups-in-de-data/index.md
+      - functionaliteit/fasenlog-selectie-in-de-tijd/index.md
+      - functionaliteit/fasenlog-visualisatie-eigen-vlog-berichten/index.md
+      - functionaliteit/fasenlog-gpswps/index.md
+      - functionaliteit/synchronisatie-tussen-fasenlogs/index.md
+    - Evaluatie:
+      - functionaliteit/yavv-yavc-evaluatie-introductie/index.md
+      - functionaliteit/evaluatie-configuratie/index.md
+      - functionaliteit/evaluatie-bekijken-resultaten/index.md
+      - functionaliteit/evaluatie-indicatoren/index.md
+  - Analyse:
+    - Analyse - Algemene informatie:
+      - analyse/analyse-weergave/index.md
+      - analyse/analyse-data-opvragen-in-yavc/index.md
+      - analyse/filtering-functionele-omschrijving/index.md
+    - Analyse - Verkeerskundig:
+      - analyse/analyse-capaciteit/index.md
+      - analyse/analyse-cyclustijd/index.md
+      - analyse/analyse-fiets-file-meting/index.md
+      - analyse/analyse-gemiddelde-wachttijd-fietsers/index.md
+      - analyse/analyse-groenbenutting/index.md
+      - analyse/analyse-groentijden/index.md
+      - analyse/analyse-intensiteit/index.md
+      - analyse/analyse-intensiteit-fietsers/index.md
+      - analyse/analyse-overstaan/index.md
+      - analyse/analyse-stopkans/index.md
+      - analyse/analyse-voertuigverliesuren/index.md
+      - analyse/analyse-wachten-zonder-reden/index.md
+      - analyse/analyse-wachttijd-eerstwachtende/index.md
+    - Analyse - Detectie:
+      - analyse/analyse-detectie-bezetting-percentage/index.md
+      - analyse/analyse-detectie-fouten/index.md
+      - analyse/analyse-detector-puls/index.md
+    - Analyse - OV:
+      - analyse/analyse-rijtijd-ov/index.md
+      - analyse/analyse-tijd-inmelding-tot-groen-ov/index.md
+      - analyse/analyse-tijd-inmelding-tot-uitmelding-ov/index.md
+    - Analyse - Verkeersveiligheid:
+      - analyse/analyse-roodrijders/index.md
+      - analyse/analyse-diep-geel-rijders/index.md
+      - analyse/analyse-vroegstarters/index.md
+    - Analyse - experimenteel:
+      - analyse/analyse-schatting-wachtrijlengte/index.md
+      - analyse/analyse-snelheidsprofiel/index.md
+      - analyse/analyse-controle-werking-wachttijdvoorspellers/index.md
+  - YAVV:
+    - Algemeen:
+      - yavv/data-openen-met-yavv/index.md
+      - yavv/documentenbeheer-in-yavv/index.md
+      - yavv/werkbladen-en-gebruikersinterface-van-yavv/index.md
+      - yavv/yavv-instellingen/index.md
+    - Addon - Big Data:
+      - yavv/yavv-big-data-introductie/index.md
+      - yavv/yavv-big-data-configuraties/index.md
+      - yavv/yavv-big-data-indexatie/index.md
+      - yavv/yavv-big-data-trend-analyse/index.md
+    - Addon - Topology:
+      - yavv/yavv-topology-introductie/index.md
+      - yavv/yavv-topology-koppelen-met-analyse-data/index.md
+      - yavv/yavv-topology-werken-met-c-its-data/index.md
+    - Licenties:
+      - yavv/yavv-hoe-en-wat-rond-licenties/index.md
+  - YAVC:
+    - Configuratie:
+      - yavc/configuratie-van-yavc-client/index.md
+      - yavc/kruispunten-configureren-in-yavc/index.md
+      - yavc/omgang-met-configuraties-in-yavc/index.md
+      - yavc/yavc-client-bitmap-bij-actieve-kruispunt/index.md
+    - Divers:
+      - yavc/data-retentie-in-yavc/index.md
+      - yavc/import-van-historische-data-in-yavc/index.md
+      - yavc/ophalen-niet-vlog-data/index.md
+      - yavc/bulk-export-analyse-in-yavc-client/index.md
+      - yavc/verkeersmodel-export/index.md
+      - yavc/verkeersmodel-export-uit-yavc/index.md
+      - yavc/yavc-bewaking-dataverzameling/index.md
+    - YAVC Beveiliging:
+      - yavc/yavc-beveiliging-client-applicatie/index.md
+      - yavc/rollen-en-rechten-in-yavc/index.md
+    - Public API:
+      - yavc/yavc-public-api/index.md
+      - yavc/yavc-public-api-authentication/index.md
+    - Overig:
+      - yavc/werken-met-meta-data/index.md
+  - FAQ:
+    - faq/ik-zie-geen-analyse-data/index.md
+    - faq/ik-zie-geen-gus-wus-multivalente-io/index.md
+    - faq/ontbrekende-data-in-vlog/index.md
+    - faq/yavv-yavc-client-fout-na-update/index.md
+    - faq/yavv-portable-wil-niet-starten/index.md
+    - faq/zoek-de-verschillen-setup-vs-portable/index.md
+    - faq/zoek-de-verschillen-yavc-yavv-yavv-bd/index.md
+  - Overig:
+    - overig/verpakken-yavv-yavc-client-voor-citrix/index.md
+    - overig/queries-met-vlog-data/index.md
+
+copyright: Copyright &copy; 2026 Coding Connected

@@ -1,0 +1,39 @@
+# MkDocs build output - commented out to deploy built site
+# site/
+
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Backup files
+*.bak
+*.backup
+
+# Local environment files
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
