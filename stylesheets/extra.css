@@ -1,0 +1,33 @@
+/* Custom styles for YAVV Wiki */
+
+/* Make code blocks more compact */
+.md-typeset pre {
+  font-size: 0.75rem;
+}
+
+/* Custom admonition colors for YAVV */
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border-color: #448aff;
+}
+
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-color: #ff9100;
+}
+
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: #00bfa5;
+}
+
+/* Ensure images don't overflow */
+.md-typeset img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Table styling */
+.md-typeset table {
+  font-size: 0.75rem;
+}
