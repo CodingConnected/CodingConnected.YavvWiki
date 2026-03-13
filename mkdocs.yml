@@ -90,7 +90,7 @@ extra:
 
 # Navigation structure - organized by topic
 nav:
-  - Home: index.md
+  - YAVV/YAVC: index.md
   - Functionaliteit:
     - Fasenlog:
       - functionaliteit/werking-van-de-fasenlog/index.md
