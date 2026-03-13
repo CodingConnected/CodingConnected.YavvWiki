@@ -1,29 +1,31 @@
 # Site metadata
 site_name: YAVV/YAVC Wiki
 site_description: Documentatie voor YAVV en YAVC - Verkeersmanagement software
-site_author: Coding Connected
+site_author: CodingConnected e.U.
 site_url: https://www.codingconnected.eu/yavvwiki/
 
 # Repository (for edit links)
-repo_url: https://github.com/yourusername/yavv-wiki
+repo_url: https://github.com/codingconnected/yavv-wiki
 edit_uri: edit/main/docs/
 
 # Theme configuration
 theme:
   name: material
   language: nl
+  favicon: assets/favicon.png
+  logo: assets/logo.png
   palette:
     # Light mode
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: orange
+      accent: orange
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     # Dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: orange
+      accent: orange
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
