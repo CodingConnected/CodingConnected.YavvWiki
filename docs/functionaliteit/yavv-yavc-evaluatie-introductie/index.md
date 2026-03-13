@@ -42,7 +42,7 @@ De evaluatie tooling is in de basis relatief eenvoudig:
 
 Hieronder een voorbeeld van de wijze waarop de vertaling van verkeerskundige data naar cijfers kan worden geconfigureerd (het cijfer wordt gevonden door de gemiddelde wachttijd eerstwachtende op de y-as op te zoeken; het bijbehorende punt op de x-as is dan het rapportcijfer):
 
-[![](images/image-1-1024x798.png)]
+![](images/image-1-1024x798.png)
 
 Deze eenvoudige basis vormt een stevig fundament voor de tooling; in de praktijk geldt daarbij dat de configuratie om te komen tot correcte cijfers aandacht vergt, en al snel een zeer grote dataset ontstaat. Aan deze beide punten is bij de implementatie van de evaluatie tooling binen YAVV/YAVC veel aandacht besteed:
 
@@ -51,4 +51,4 @@ Deze eenvoudige basis vormt een stevig fundament voor de tooling; in de praktijk
 
 Hieronder een voorbeeld van de visualisatie (YAVC client versie 3.4.0), waarin de data voor een aantal indicatoren per week wordt weergegeven:
 
-[![](images/image-1024x798.png)]
+![](images/image-1024x798.png)

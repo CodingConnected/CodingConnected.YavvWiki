@@ -5,3 +5,5 @@ en vervolgens via de lijst met items links in beeld tussen artikelen. Heeft u ee
 dan bevindt zich rechts in beeld (waar van toepassing) een inhoudsopgave.
 
 Middels de zoekbalk bovenin kunt u eenvoudig zoeken naar diverse onderwerpen.
+
+Voor meer informatie over CodingConnected: [breng een bezoek aan de website](https://www.codingconnected.eu/)!

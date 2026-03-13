@@ -3,7 +3,7 @@ title: "YAVV big data: introductie"
 date: 2021-01-14
 ---
 
-[![](images/2021-01-22-YAVVbd_trend-1024x444.png)]
+![](images/2021-01-22-YAVVbd_trend-1024x444.png)
 
 Trend analyse over 2 maanden data: met YAVV/bd klaar in 1 minuut!
 

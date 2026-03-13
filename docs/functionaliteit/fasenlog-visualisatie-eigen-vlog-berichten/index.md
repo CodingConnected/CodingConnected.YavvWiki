@@ -46,16 +46,16 @@ Waarbij:
 - 003 = aantal items
 - 0x15 = 21 = type data, ofwel "index2 + byte"
 - per item:
-    - 0000 = index 0
-    - 05 = data
-    - 0001 = index 1
-    - 07 = data
-    - 0002 = index 2
-    - 05 = data
+  - 0000 = index 0
+  - 05 = data
+  - 0001 = index 1
+  - 07 = data
+  - 0002 = index 2
+  - 05 = data
 
 Merk op dat niet per sé voor alle indices (dus bv. voor alle signaalgroepen of detectoren) data hoeft te worden weggeschreven, ook niet bij een status bericht.
 
-Zie voor verdere informatie omtrent het werken met "eigen" VLOG binnen CCOL de handleiding van de toolkit (zoek op "vlog\_put\_message").
+Zie voor verdere informatie omtrent het werken met "eigen" VLOG binnen CCOL de handleiding van de toolkit (zoek op "vlog_put_message").
 
 ## Visualisatie in YAVV/YAVC
 
@@ -94,7 +94,7 @@ Hieronder een voorbeeld van een JSON configuratie:
 
 Het resultaat van bovenstaande configuratie is in de fasenlog te zien:
 
-[![](images/image-8-1024x184.png)]
+![](images/image-8-1024x184.png)
 
 Wat precies te zien is, is natuurlijk vooral afhankelijk van de data die in de VLOG wordt weggeschreven.
 
@@ -112,23 +112,21 @@ De beschikbare instellingen van het object zijn:
 - MessageDescription - beschrijving voor de tooltip in de fasenlog
 - EnumValues - de tekst-waarden die horen bij verschillende nummerieke waarden, zie ook het voorbeeld hieronder
 - BelongsToType - type VLOG-item waar deze data bij hoort, zoals detector, signaalgroep, etc.
-    - 0 - signaalgroep
-    - 1 - detector
-    - 2 - input
-    - 3 - output
+  - 0 - signaalgroep
+  - 1 - detector
+  - 2 - input
+  - 3 - output
 - DataType - dit geeft aan hoe de data per item geïnterpreteerd en weergegeven moet worden
-    
-    - 0 - boolean
-    - 1 - decimale integer
-    - 2 - hexidecimale integer
-    - 3 - binaire integer
-    - 4 - bits, bv. BIT0 | BIT1 | BIT5
-        - **Merk op:** voor boolean, integers en bits wordt bij een waarde 0 niets geplot
-    - 5 - enumeratie, bv.: tram, bus, trein, boot
-        - Voor zowel 4 als 5 geldt dat in de json de enumeratie opties opgegeven moeten worden, in het formaat zoals onderaan te zien
-    
-    - 6 - vlaggen enumeratie, dus met potentieel meerdere waarden, bv.: aanvraag detector, aanvraag knop, mee aanvraag, aanvraag richtinggevoelig
-        - **Let op!** Voor de de bitwise enumeratie moet met machten van 2 worden gewerkt voor de mogelijke waarden; bv. 1, 2, 4, 8, 16, etc.
+  - 0 - boolean
+  - 1 - decimale integer
+  - 2 - hexidecimale integer
+  - 3 - binaire integer
+  - 4 - bits, bv. BIT0 | BIT1 | BIT5
+    - **Merk op:** voor boolean, integers en bits wordt bij een waarde 0 niets geplot
+  - 5 - enumeratie, bv.: tram, bus, trein, boot
+    - Voor zowel 4 als 5 geldt dat in de json de enumeratie opties opgegeven moeten worden, in het formaat zoals onderaan te zien
+  - 6 - vlaggen enumeratie, dus met potentieel meerdere waarden, bv.: aanvraag detector, aanvraag knop, mee aanvraag, aanvraag richtinggevoelig
+    - **Let op!** Voor de de bitwise enumeratie moet met machten van 2 worden gewerkt voor de mogelijke waarden; bv. 1, 2, 4, 8, 16, etc.
 
 Formaat voor enumeraties in de JSON:
 

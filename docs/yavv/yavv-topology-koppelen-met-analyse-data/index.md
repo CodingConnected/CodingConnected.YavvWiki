@@ -24,7 +24,7 @@ Met zowel de ITF als de VLOG data geopend kan deze worden gekoppeld:
 - Vink "Synchroniseer" aan
 - Selecteer het document met geopende VLOG data
 
-[![](images/image-11.png)]
+![](images/image-11.png)
 
 Default worden nu intensiteiten gekoppeld. Om andere data te visualiseren: open het analyse werkblad behorende bij de VLOG data en selecteer de gewenste analyse. Tevens kan hier bv. een selectie worden gemaakt in de tijd, wat ook door zal werken in de gekoppelde data.
 

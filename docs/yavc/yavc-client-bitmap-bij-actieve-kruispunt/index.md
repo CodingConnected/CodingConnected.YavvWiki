@@ -16,7 +16,7 @@ Voor een bitmap kan worden weergegeven, moet deze eerst worden geconfigureerd. D
 
 Bij kruispunten in YAVC kunnen (sinds YAVC-client versie 3.x) databronnen bij kruispunten worden opgeslagen. Hier kunnen onder meer bitmaps worden opgeslagen. Open hiertoe het instellingen werkblad (systemadmin niveau is noodzakelijk!), selecteer een kruispuint, en klik dan op het tabblad "Data bronnen":
 
-[![](images/image-1.png)]
+![](images/image-1.png)
 
 Om een bitmap toe te voegen:
 
@@ -31,7 +31,7 @@ Om een bitmap toe te voegen:
 
 Kies het tabblad "VLOG configuraties" van de betreffende kruising en klik vervolgens op de configuratie waarvoor een bitmap moet worden ingesteld. Klik daarna op het tabblad "Varia" en dan op "Bronnen bij configuratie":
 
-[![](images/image-2.png)]
+![](images/image-2.png)
 
 Kies nu de gewenste bitmap en klik vervolgens op "Opslaan". Let op: **kies bij de vraag om wel/niet te herberekenen: Nee**. Herberekenen is in dit geval niet nodig, want er verandert inhoudelijk niets aan de analyse configuratie.
 
@@ -41,7 +41,7 @@ Is voor een kruispunt voor één of meer analyse configuraties een bitmap ingest
 
 Klik hiertoe in het menu op Beeld>Tool vensters>Weergeven bitmap:
 
-[![](images/image-3.png)]
+![](images/image-3.png)
 
 Of gebruik de snelkoppeling op de toolbar.
 

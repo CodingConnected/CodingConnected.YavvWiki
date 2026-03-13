@@ -14,18 +14,18 @@ Het functioneren van de evaluatie module van YAVV/YAVC - en daarmee ook de bruik
 Om goed te kunnen plaatsen precies wat en om precies welke reden moet worden geconfigureerd, kijken we eerste naar de werking van de evaluatie module:
 
 - Uitgangspunt is de beschikbaarheid van analyse data
-    - **Merk op!** Met andere woorden: een correcte [configuratie van de kruising](../../yavc/kruispunten-configureren-in-yavc/index.md) is een voorwaarde voor het verkrijgen van zinvolle evaluatie uitkomsten.
-    - Voor YAVC geldt: de evaluatie data wordt continu doorgerekend; hiervoor is wel een gevalideerde analyse configuratie nodig
-    - Voor YAVV (bigdata) geldt: er moet vóór de evaluatie optie beschikbaar komt een trend analyse worden uitgevoerd op een dataset
+  - **Merk op!** Met andere woorden: een correcte [configuratie van de kruising](../../yavc/kruispunten-configureren-in-yavc/index.md) is een voorwaarde voor het verkrijgen van zinvolle evaluatie uitkomsten.
+  - Voor YAVC geldt: de evaluatie data wordt continu doorgerekend; hiervoor is wel een gevalideerde analyse configuratie nodig
+  - Voor YAVV (bigdata) geldt: er moet vóór de evaluatie optie beschikbaar komt een trend analyse worden uitgevoerd op een dataset
 - De VLOG data gaat dus door een soort pijplijn:
-    - Stap 1: uitlezen van VLOG data
-    - Stap 2: filteren van de data
-    - Stap 3: uitvoeren analyses op de data
-    - Stap 4: verwerken analyse resultaten tot evaluatie
+  - Stap 1: uitlezen van VLOG data
+  - Stap 2: filteren van de data
+  - Stap 3: uitvoeren analyses op de data
+  - Stap 4: verwerken analyse resultaten tot evaluatie
 - Voor de 4e stap in deze pijplijn geldt:
-    - De evaluatie kan enkel worden uitgevoerd indien alle benodigde analyse data beschikbaar is (voor de indicator wachten-zonder-reden zijn dus bv. conflicten nodig in de kruispunt analyse-configuratie)
-    - De analyse resultaten worden verwerkt per dag, tot een waarde per signaalgroep per geconfigureerde periode
-    - De bepaalde waarde voor de betreffende periode wordt vertaald naar een rapportcijfer
+  - De evaluatie kan enkel worden uitgevoerd indien alle benodigde analyse data beschikbaar is (voor de indicator wachten-zonder-reden zijn dus bv. conflicten nodig in de kruispunt analyse-configuratie)
+  - De analyse resultaten worden verwerkt per dag, tot een waarde per signaalgroep per geconfigureerde periode
+  - De bepaalde waarde voor de betreffende periode wordt vertaald naar een rapportcijfer
 
 Dit laatste punt is cruciaal: hier worden relatief "harde" analyse waarden vertaald naar een relatief (en dus "zacht") cijfer. Een cijfer - zoals 7,8 of 5,3 - zegt op zichzelf weinig; pas wanneer bekend is welke grenswaarden zijn ingesteld om de "harde" waarde naar een cijfer te vertalen, krijgt het cijfer betekenis.
 
@@ -36,8 +36,8 @@ Opzet configuratie
 Een evaluatie configuratie kent de volgende opzet:
 
 - Evalutie periode
-    - Signaalgroep categorie
-        - Indicatoren
+  - Signaalgroep categorie
+    - Indicatoren
 
 Hierbij geldt dat rapportcijfers altijd worden berekend per dag, en vervolgens dus per geconfigureerde evaluatie periode. Binnen de periode worden voor elke signaalgroep cijfers berekend. Hierbij geldt:
 
@@ -69,7 +69,7 @@ Door de getrapte opzet van de evaluatieconfiguraties, is het mogelijk zeer gecom
 Enerzijds is dit een kracht van de opzet van de evaluatie tooling: er is zeer veel mogelijk. Tegelijk ontstaat al snel een zeer complex geheel aan instellingen, met navenant moeilijk te interpreteren resultaten. Daarom een aantal tips:
 
 - Gebruik een periode als de default, en stel voor andere perioden in dat ze de default instellingen gebruiken; enerzijds scheelt dit zeer veel qua configuratie, en anderzijds is het op deze manier eenvoudiger de resultaten te duiden, omdat deze voor alle perioden op dezelfde manier worden bepaald
-    - Wordt toch gekozen voor afwijkende instellingen per periode: zorg er binnen de YAVV voordat de indicatoren per signaalgroepen categorie per periode overal identiek zijn (binnen YAVC wordt dit afgedwongen)
+  - Wordt toch gekozen voor afwijkende instellingen per periode: zorg er binnen de YAVV voordat de indicatoren per signaalgroepen categorie per periode overal identiek zijn (binnen YAVC wordt dit afgedwongen)
 - Gebruik voor alle perioden dezelfde signaalgroepen categorieën; dit wordt overigens momenteel zowel in YAVV als in YAVC afgedwongen
 - En vooral: beperk het aantal perioden, het aantal signaalgroepen categorieën en (in YAVC) het aantal evaluatie configuraties
 
@@ -88,30 +88,30 @@ De evaluatie perioden zijn niet meer dan ingestelde tijdsperioden: bij het uitvo
 De betekenis van signaalgroep categorieën is hierboven reeds omschreven. Hier geldt qua configuratie dat dit enigszins verschilt tussen YAVV en YAVC:
 
 - In YAVC: categorieën, inclusief bijbehorende indicatoren, worden beheerd via het tabblad "Signaalgroep categorieën":  
-    ![](images/image-6.png)  
-    Hier aangemaakte/verwijderde categorieën, worden ook toegevoegd aan/verwijderd uit alle aangemaakte evaluatie-configuraties
+   ![](images/image-6.png)  
+   Hier aangemaakte/verwijderde categorieën, worden ook toegevoegd aan/verwijderd uit alle aangemaakte evaluatie-configuraties
 - In YAVV: categorieën worden aangemaakt en beheerd via het tabblad Evaluatie > Categorieën:  
-    ![](images/image-4.png)  
-    De categorieën komen vervolgens terug in de boomstructuur onder "Indicatoren"; klik hier op een categeorie om in te stellen welke indicatoren meegenomen moeten worden:  
-    ![](images/image-5.png)
+   ![](images/image-4.png)  
+   De categorieën komen vervolgens terug in de boomstructuur onder "Indicatoren"; klik hier op een categeorie om in te stellen welke indicatoren meegenomen moeten worden:  
+   ![](images/image-5.png)
 
 ### Evaluatie configuraties (YAVV en YAVC)
 
 De kern van de evaluatie tooling vormt de vertaling van verkeerskundige data naar rapportcijfers. Dit wordt geconfigureerd in een boomstructuur per geconfigureerde periode, en per periode weer per geconfigureerde signaalgroep categorie. De boomstructuur kent drie niveaus:
 
 - Periode
-    - Categorie
-        - Indicator
+  - Categorie
+    - Indicator
 
 Hieronder een voorbeeld van hoe dit eruit ziet in YAVC (in YAVV is dit verder gelijk):
 
-[![](images/image-7-1024x562.png)]
+![](images/image-7-1024x562.png)
 
 Door te klikken op elementen in de boomstructuur komen de beschikbare instellingen voor dat element naar voren:
 
 - Periode: de naam en ingestelde tijden van de periode zijn hier te zien (maar niet in te stellen, dit gebeurt zoals hierboven omschreven elders). Tevens is in te stellen:
-    - Gebruik als default: er kan één periode als default worden aangegeven
-    - Gebruikt default indicatoren: indien aangevinkt, is er voor deze periode verder niets in te stellen; de periode maakt in plaats gebruik van de instellingen van de aangegeven default periode
+  - Gebruik als default: er kan één periode als default worden aangegeven
+  - Gebruikt default indicatoren: indien aangevinkt, is er voor deze periode verder niets in te stellen; de periode maakt in plaats gebruik van de instellingen van de aangegeven default periode
 - Categorie: in YAVV kunnen hier indicatoren worden toegevoegd en/of verwijderd; in YAVC kan slechts worden bekeken welke indicatoren bij deze categorie zijn geconfigureerd
 - Indicator: door te klikken op een indicator, komen de grafiek en de tabel tevoorschijn met de curve die wordt gebruikt om analysedata te vertalen naar een rapportcijfer; de curve kan worden bewerkt door de waarden aan te passen in de tabel en/of te klikken/slepen in de grafiek
 
@@ -157,7 +157,7 @@ De default evaluatieconfiguratie kan worden ingesteld via menu Help > Instelling
 - Perioden worden ingesteld via het tabblad "Perioden"; hier aangemaakte/verwijderde perioden komen automatisch terug (of vallen weg) in het tabblad "Evaluatie"
 - Er kan één evaluatieconfiguratie worden ingesteld (tabblad "Evaluatie")
 - De evaluatieconfiguratie kan worden opgeslagen en weer worden ingeladen:  
-    ![](images/image-2.png)
+   ![](images/image-2.png)
 
 Om binnen YAVV vervolgens gebruik te maken van de evaluatie tooling:
 
@@ -165,8 +165,8 @@ Om binnen YAVV vervolgens gebruik te maken van de evaluatie tooling:
 - Voer vervolgens na selectie van een aantal dagen via tabblad "Trend analyse" een trendanalyse uit (zie ook [hier](../../yavv/yavv-big-data-trend-analyse/index.md))
 - Nu komt de knop "Evaluatie" in de Toolbar beschikbaar. Deze knop opent een nieuw werkblad.
 - In het tabblad "Configuratie" van het evaluatie werkblad kan de evaluatieconfiguratie voor de actuele evaluatie worden nabewerkt:  
-    ![](images/image-3.png)  
-    Hier zijn exact dezelfde instellingen beschikbaar, als bij de defaults. Aanvullend is onder de tabblad "Signaalgroepen" instelbaar welke signaalgroepen bij welke signaalgroep categorie hoort. Ook hier kan de evaluatie worden opgeslagen/ingeladen
+   ![](images/image-3.png)  
+   Hier zijn exact dezelfde instellingen beschikbaar, als bij de defaults. Aanvullend is onder de tabblad "Signaalgroepen" instelbaar welke signaalgroepen bij welke signaalgroep categorie hoort. Ook hier kan de evaluatie worden opgeslagen/ingeladen
 - Klik na evt. wijzigen van de actuele evaluatie configuratei op "Evaluatie verversen"
 - **Merk op:** deze evaluatieconfiguratie is uitsluitend van toepassing binnen de context van dit werkblad
 - **Merk op 2**: controleer na inladen van een evaluatieconfiguratie altijd de toedeling van signaalgroepen aan signaalgroep categorieën; wordt bijvoorbeeld een evaluatieconfiguratie van een andere kruising ingeladen, dan klopt toedeling mogelijk niet

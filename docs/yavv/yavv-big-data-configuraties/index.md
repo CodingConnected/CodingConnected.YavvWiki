@@ -35,10 +35,10 @@ Net als wanneer met YAVV bestanden worden geopend ([zie hier](../../yavc/omgang-
 - Bij VLOG3 data wordt de configuratie uit de data zelf default ingeladen.
 - Vervolgens wordt gezocht naar .yavv, .cfg, .vlt en .vlc bestanden in de geopende map - inclusief onderliggende mappen! Tevens wordt gezocht naar degelijke bestanden in de default configuratie map - indien ingesteld. Het resultaat is een complete lijst met beschikbare configuratie instellingen.
 - Vervolgens wordt een match gezocht - waarbij naast de naam van het bestand ook de aantallen IO moeten matchen:
-    - Als eerste een 1 op 1 match tussen TLC-id uit de data en bestandsnaam voor .yavv bestanden
-    - Dan een partiële match voor .yavv bestanden
-    - Vervolgens een 1 op 1 match tussen de TLC-id uit de data en een CFG bestand (.cfg, .vlc of .vlt)
-    - En tenslotte een partiële match met een CFG bestand
+  - Als eerste een 1 op 1 match tussen TLC-id uit de data en bestandsnaam voor .yavv bestanden
+  - Dan een partiële match voor .yavv bestanden
+  - Vervolgens een 1 op 1 match tussen de TLC-id uit de data en een CFG bestand (.cfg, .vlc of .vlt)
+  - En tenslotte een partiële match met een CFG bestand
 - Per voorgaande stap worden telkens eerst configuratie bestanden uit de geopende map geprobeerd, en daarna evt. bestanden uit de default configuratie map.
 - De eerst gevonden match zorgt voor toepassen van de betreffende configuratie en afbreken van het zoekproces.
 
@@ -46,11 +46,11 @@ Net als wanneer met YAVV bestanden worden geopend ([zie hier](../../yavc/omgang-
 
 Configuraties kunnen worden bewerkt door in de lijst met configuratie op het tandwiel van de betreffende configuratie te klikken.
 
-[![](images/image-6.png)]
+![](images/image-6.png)
 
 Hiermee wordt een nieuw werkblad geopend, waarin de configuratie kan worden bewerkt. Het is middels de knoppen in de toolbar ook mogelijk een configuratie bestand te gebruiken om instellingen in te laden. Tevens is het mogelijk de (al dan niet aangepaste) configuratie instellingen op schijf op te slaan.
 
-[![](images/image-7.png)]
+![](images/image-7.png)
 
 ### Toepassingsbereik van configuraties
 
@@ -65,5 +65,5 @@ Dit houdt dus in:
 Tevens is goed om te weten (vooruitlopend op het uitvoeren van trend analyses link=TODO):
 
 - Een trend analyse kan enkele worden uitgevoerd over een tijdsperiode waarop één unieke configuratie van toepassing is.
-    - Dit is nodig, omdat wordt gewerkt met indices. Wijzigen de indices, dan wijzigt mogelijk de toedeling.
+  - Dit is nodig, omdat wordt gewerkt met indices. Wijzigen de indices, dan wijzigt mogelijk de toedeling.
 - Dagen waarop meer dan één configuratie actief zijn, kunnen niet mee doen in de trend analyse - immers: het is onzeker of data voor index x altijd hetzelfde werkelijke item betreft.

@@ -11,7 +11,7 @@ _Let op!_ Om een kruispunt toe te kunnen voegen in YAVC is het niveau van systee
 
 Klik op “toevoegen” om een kruispunt toe te voegen. Er verschijnt een dialoogvenster waarin de naam voor de kruising kan worden opgegeven.
 
-[![](images/image-11.png)]
+![](images/image-11.png)
 
 _Let op!_ Dit betreft de **interne naam**, en deze is later niet meer te wijzigen. Deze interne naam wordt gebruikt in systeem logging van YAVC, en voor het aanmaken van mappen voor tijdelijke opslag van data, en archivering. Naast deze interne naam is er een apart veld waarin de weer te geven naam van de kruising kan worden ingesteld; dit kan wél worden gewijzigd.
 
@@ -42,24 +42,17 @@ Er zijn een aantal YAVC specifieke instellingen beschikbaar:
 - Actieve connectie configuratie: hier kan worden gekozen uit de voor deze kruising beschikbare connectie configuraties. Dit kan uitsluitend indien er reeds één of meer connectie configuraties zijn aangemaakt (zie verderop)
 
 - Actieve archivering configuratie: hier worden gekozen welke archiveerder actief is voor deze kruising
-    - Het is dus mogelijk de data van uiteenlopende kruispunten op uiteenlopende locaties te archiveren, of van slechts een deel van de kruising de data te archiveren, en van andere te verwijderen
-    
-    - Ook hier geldt: dit is slechts dan instelbaar, wanneer reeds één of meer archivering configuraties zijn aangemaakt.
+  - Het is dus mogelijk de data van uiteenlopende kruispunten op uiteenlopende locaties te archiveren, of van slechts een deel van de kruising de data te archiveren, en van andere te verwijderen
+  - Ook hier geldt: dit is slechts dan instelbaar, wanneer reeds één of meer archivering configuraties zijn aangemaakt.
 
 - Geavanceerde instellingen:
-    - VLOG checksum locatie: de plek van de checksum in VLOG3, indien aanwezig. Deze instelling moet momenteel op "geen" blijven staan; YAVC zal in de toekomst eigenstandig deze locatie bepalen.
-    
-    - Default file VLOG lengte: de default lengte van VLOG files, in seconden. Dit is normaliter 300 seconden. Deze waarde wordt gebruikt om compleetheid van data te bepalen wanneer er een gat valt in de data
-    
-    - Maximale tijdsduur analyse per run, in minuten: YAVC analyseert data in "runs", normaliter elke 20 minuten. Komt er ineens veel data binnen, dan wordt dit maximum gehanteerd om de systeembelasting te beperken
-    
-    - Maximum aantal dagen terug tbv analyse: data ouder dan dit aantal dagen zal niet worden geanalyseerd; dit is evenwel een verouderde instelling, want er is inmiddels een historische data analyzer, die ('s nachts) ook oudere data zal verwerken.
-    
-    - Niet automatisch aanmaken analyse configuratie: indien aangevinkt, zal ook bij afwijkende aantallen IO, niet automatisch een nieuwe analyse configuratie worden aangemaakt. Dit is bijvoorbeeld relevant wanneer handmatig signaalgroepen zijn toegevoegd (bijvoorbeeld om tel detectoren correct in te delen); YAVC zou een dergelijke configuratie herkennen als verouderd en een nieuwe aanmaken, maar deze isntelling voorkomt dat
-    
-    - Timings data niet opslaan: indien aangevinkt, wordt timings data niet opgeslagen in de VLOG bij import in de database. Dit kan veel ruimte schelen omdat er soms extreem veel timings data wordt aangemaakt, waarbij timings berichten ook nog relatief groot zijn
-    
-    - Check VLOG header: het komt voor dat de header van VLOG files incompleet is, door de afwezigheid van bepaalde elementen in de header. Dit veroorzaakt het aanmaken van een nieuwe analyse configuratie, terwijl er eigenlijk geen sprake is van een wijziging, maar van een fout in de data. Door dit aan te vinken wordt hierop gecontroleerd voor de nadien aangevinkte elementen. Invalide data komt vervolgens niet in YAVC
+  - VLOG checksum locatie: de plek van de checksum in VLOG3, indien aanwezig. Deze instelling moet momenteel op "geen" blijven staan; YAVC zal in de toekomst eigenstandig deze locatie bepalen.
+  - Default file VLOG lengte: de default lengte van VLOG files, in seconden. Dit is normaliter 300 seconden. Deze waarde wordt gebruikt om compleetheid van data te bepalen wanneer er een gat valt in de data
+  - Maximale tijdsduur analyse per run, in minuten: YAVC analyseert data in "runs", normaliter elke 20 minuten. Komt er ineens veel data binnen, dan wordt dit maximum gehanteerd om de systeembelasting te beperken
+  - Maximum aantal dagen terug tbv analyse: data ouder dan dit aantal dagen zal niet worden geanalyseerd; dit is evenwel een verouderde instelling, want er is inmiddels een historische data analyzer, die ('s nachts) ook oudere data zal verwerken.
+  - Niet automatisch aanmaken analyse configuratie: indien aangevinkt, zal ook bij afwijkende aantallen IO, niet automatisch een nieuwe analyse configuratie worden aangemaakt. Dit is bijvoorbeeld relevant wanneer handmatig signaalgroepen zijn toegevoegd (bijvoorbeeld om tel detectoren correct in te delen); YAVC zou een dergelijke configuratie herkennen als verouderd en een nieuwe aanmaken, maar deze isntelling voorkomt dat
+  - Timings data niet opslaan: indien aangevinkt, wordt timings data niet opgeslagen in de VLOG bij import in de database. Dit kan veel ruimte schelen omdat er soms extreem veel timings data wordt aangemaakt, waarbij timings berichten ook nog relatief groot zijn
+  - Check VLOG header: het komt voor dat de header van VLOG files incompleet is, door de afwezigheid van bepaalde elementen in de header. Dit veroorzaakt het aanmaken van een nieuwe analyse configuratie, terwijl er eigenlijk geen sprake is van een wijziging, maar van een fout in de data. Door dit aan te vinken wordt hierop gecontroleerd voor de nadien aangevinkte elementen. Invalide data komt vervolgens niet in YAVC
 
 - Extra meta data: hier kunnen door de gebruiker zelf gespecificeerde velden worden gevuld met data. Zie hiervoor [dit artikel](../werken-met-meta-data/index.md).
 
@@ -112,29 +105,21 @@ De instellingen zijn:
 Het is (sinds versie 3.5 van YAVC client) mogelijk bij optreden van een fout in de dataverzameling, in te stellen dat YAVC geautomatiseerd naar een andere connectie configuratie wisselt. Dit werkt als volgt:
 
 - Per connectie configuratie kan in de client een prioriteit worden ingesteld
-    - Deze instelling is beschikbaar in de lijst met beschikbare connectie configuraties
-    
-    - _Let op!_ Een **lager** cijfer betekent een **hogere** prioriteit
-        - Laagste cijfer = hoogste prio
-        
-        - Dus cijfer 1 = hoogst, 2 = lager, 3 = nog lager, etc.
-        
-        - Prioriteit 0 = doet niet mee; als dis is ingesteld voor een connectie configuratie en deze is actief, wordt er in het geheel niet geswitched; tevens wordt nooit naar een connectie configuratie toe geswitched met prioriteit 0
-        
-        - Is de prioriteit van de actieve connectie configuratie 1, dan zal er nooit iets gebeuren; is deze b.v. 3 en zijn er andere configuraties met prioriteit 2 of 1, dan switcht YAVC naar de eerstvolgende richting 1; dus b.v. éérst naar connectie configuratie met prioriteit 2, en dan bij een volgende fout naar de configuratie met prioriteit 1.
+  - Deze instelling is beschikbaar in de lijst met beschikbare connectie configuraties
+  - _Let op!_ Een **lager** cijfer betekent een **hogere** prioriteit
+    - Laagste cijfer = hoogste prio
+    - Dus cijfer 1 = hoogst, 2 = lager, 3 = nog lager, etc.
+    - Prioriteit 0 = doet niet mee; als dis is ingesteld voor een connectie configuratie en deze is actief, wordt er in het geheel niet geswitched; tevens wordt nooit naar een connectie configuratie toe geswitched met prioriteit 0
+    - Is de prioriteit van de actieve connectie configuratie 1, dan zal er nooit iets gebeuren; is deze b.v. 3 en zijn er andere configuraties met prioriteit 2 of 1, dan switcht YAVC naar de eerstvolgende richting 1; dus b.v. éérst naar connectie configuratie met prioriteit 2, en dan bij een volgende fout naar de configuratie met prioriteit 1.
 
 - Per kruising wordt vervolgens automatisch switchen aan/uit gezet (default = uit); is automatisch wisselen uitgeschakeld voor een kruising, dan blijft dus altijd dezelfde connectieconfiguratie actief, ook wanneer er prioriteitsniveaus zijn ingesteld voor connectie configuraties
-    - Deze instelling zit onder "geavanceerde opties" van de kruispunt instellingen
-    
-    - Wanneer automatische wisseling wordt ingeschakeld, moet ook worden ingesteld vanaf welk urgentieniveau automatisch geschakeld moet worden; het is aan te bevelen dit op "hoger" of "urgent" in te stellen, zodat niet onbedoeld van configuratie wordt gewisseld bij een kortdurende storing
+  - Deze instelling zit onder "geavanceerde opties" van de kruispunt instellingen
+  - Wanneer automatische wisseling wordt ingeschakeld, moet ook worden ingesteld vanaf welk urgentieniveau automatisch geschakeld moet worden; het is aan te bevelen dit op "hoger" of "urgent" in te stellen, zodat niet onbedoeld van configuratie wordt gewisseld bij een kortdurende storing
 
 - Treedt er een data-verzameling issue op, en is dit voldoende urgent, dan switcht YAVC, indien dit is geactiveerd, geautomiseerd conform de hierboven omschreven methodiek naar een andere connectie configuratie
-    
-    - Er wordt vervolgens niet direct weer geswitched naar een evt. 3e/4e/volgende connectie configuratie met een hogere prioriteit (=lager cijfer!); dit gebeurt pas dan wanneer vanaf het laatste switch moment ten minste de tijd is verlopen die is ingesteld als grenswaarde voor het minimale issue-niveau dat is ingesteld voor de automatische switch (de grens qua laatste moment van ophalen van data)
-    
-    - Email alerts omtrent data verzameling issues bevatten, indien autom.switch actief is, ook een regel tekst waarin staat welke conn.config actief was ten tijde van de error, en wat het prioriteitsniveau hiervan was
-    
-    - De automatische switch functionaliteit doet verder niets met alerts/issues, die blijven dus actief, tot er weer data binnenkomt en ze automatisch op non-actief gaan
+  - Er wordt vervolgens niet direct weer geswitched naar een evt. 3e/4e/volgende connectie configuratie met een hogere prioriteit (=lager cijfer!); dit gebeurt pas dan wanneer vanaf het laatste switch moment ten minste de tijd is verlopen die is ingesteld als grenswaarde voor het minimale issue-niveau dat is ingesteld voor de automatische switch (de grens qua laatste moment van ophalen van data)
+  - Email alerts omtrent data verzameling issues bevatten, indien autom.switch actief is, ook een regel tekst waarin staat welke conn.config actief was ten tijde van de error, en wat het prioriteitsniveau hiervan was
+  - De automatische switch functionaliteit doet verder niets met alerts/issues, die blijven dus actief, tot er weer data binnenkomt en ze automatisch op non-actief gaan
 
 - Merk nog op: de verbinding voor "[ophalen andere data](../ophalen-niet-vlog-data/index.md)" (indien ingesteld) switcht momenteel _niet_ mee.
 
@@ -153,9 +138,8 @@ Een automatisch aangemaakte configuratie is nog niet gevalideerd. De beheerder m
 - Desgewenst conflicten en geeltijden configureren (bij voorkeur uit een tab.c bestand)
 
 - Eventueel filtering of analyse instellingen aanpassen
-    - Zie voor uitleg van de mogelijkheden de artikelen over filtering en analyse op de wiki
-    
-    - De defaults zijn doorgaand prima
+  - Zie voor uitleg van de mogelijkheden de artikelen over filtering en analyse op de wiki
+  - De defaults zijn doorgaand prima
 
 - Overige instellingen aanpassen (bv. toedeling DSI)
 
@@ -182,10 +166,10 @@ Juiste instellingen voor detectoren zijn van wezenlijk belang voor het correct f
 _Let op!_ Zorg er dus voor dat:
 
 - het _type detector_ klopt: kop, lang en verweg voor de relevante lussen; overige lussen instellen op een ander type (bv. "Overige lus").
-    - Instellen van lussen die feitelijk niet kop, lang of verweglussen zijn op dit type heeft mogelijk onbedoeld nadelige effecten op de filtering, en daarmee op de analyse uitkomsten
+  - Instellen van lussen die feitelijk niet kop, lang of verweglussen zijn op dit type heeft mogelijk onbedoeld nadelige effecten op de filtering, en daarmee op de analyse uitkomsten
 
 - _de volgorde_ klopt: de exacte ligging van detectoren is niet cruciaal, wat echter wel belangrijk is, is te zorgen dat de volgorde (per rijstrook) overstemt met de situatie op straat: er wordt namelijk gefilterd op volgorde, en een foutieve configuratie kan daarmee onbedoeld de filtering en daarmee de analyse uitkomsten beïnvloeden
-    - _een uitzondering_ is de analyse "[gemiddelde wachttijd fiets](../../analyse/analyse-gemiddelde-wachttijd-fietsers/index.md)": hier worden meldingen op de verweg detectie gebruikt om in te schatten wanneer fietsers bij de stopstreer arriveren; daarbij is de min of meer exacte ligging dus wel van belang (waarbij 1 of 2 meter afwijking alsnog weinig uit maakt; het betreft hoe dan ook een inschatting)
+  - _een uitzondering_ is de analyse "[gemiddelde wachttijd fiets](../../analyse/analyse-gemiddelde-wachttijd-fietsers/index.md)": hier worden meldingen op de verweg detectie gebruikt om in te schatten wanneer fietsers bij de stopstreer arriveren; daarbij is de min of meer exacte ligging dus wel van belang (waarbij 1 of 2 meter afwijking alsnog weinig uit maakt; het betreft hoe dan ook een inschatting)
 
 - de _toedeling aan rijstroken_ klopt: ook hier geldt dat een foutieve toedeling de volgorde filters onbedoeld in de war kan brengen
 
@@ -222,7 +206,7 @@ Hier kunnen per analyse en filter de instellingen worden geregeld. Zie voor uitl
 Momenteel is hier beschikbaar:
 
 - DSI: hier kan worden bepaald dat het toedelen van DSI berichten aan signaalgroepen handmatig moet. Is dit het geval, dan kan in de lijst worden aangegeven welke DSI-signaalgroep-naam hoort bij welke signaalgroep. Dit is bijvoorbeeld handig wanneer de regeling 1## en 2## richtingen bevat, terwijl de max voor richtingnummers in de DSI data 200 is: in dit geval kan bv DSI-sg-naam 45 worden gekoppeld aan 245, terwijl 145 wel 1-op-1 kan worden gekoppeld.
-    - Deze instellingen worden, indien aanwezig, gebruikt voor de visualisatie in de fasenlog en de analyses [DSI-in tot startgroen](../../analyse/analyse-tijd-inmelding-tot-groen-ov/index.md) en [DSI-in tot DSI-uit](../../analyse/analyse-tijd-inmelding-tot-uitmelding-ov/index.md).
+  - Deze instellingen worden, indien aanwezig, gebruikt voor de visualisatie in de fasenlog en de analyses [DSI-in tot startgroen](../../analyse/analyse-tijd-inmelding-tot-groen-ov/index.md) en [DSI-in tot DSI-uit](../../analyse/analyse-tijd-inmelding-tot-uitmelding-ov/index.md).
 
 #### VLOGCFG
 

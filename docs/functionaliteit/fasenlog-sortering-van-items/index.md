@@ -18,7 +18,7 @@ _Let op 2_: in YAVC-client worden wijzigingen in weergave of sortering momenteel
 
 Bij aanwezigheid van een configuratie bestand bij de data kunnen detectoren bij de fasen worden geplaatst middels de betreffende knop op de toolbar:
 
-[![](images/image-13.png)]
+![](images/image-13.png)
 
 Hoe dit precies werkt is afhankelijk van de informatie uit de configuratie:
 
@@ -32,11 +32,11 @@ De knop zorgt ervoor dat de detectoren die bij een bepaalde signaalgroep horen i
 Wanneer de automatische toedeling van detectoren niet klopt, of er moeten ingangen of uitgangen naar boven of onder worden geplaatst, moet dit handmatig. Hiervoor zijn twee manieren:
 
 - Door items te slepen direct in de lijst naast de fasenlog  
-    ![](images/image-14.png)
+   ![](images/image-14.png)
 - Door gebruik van het dialoogvenster middels de vergrootglas knop boven de lijst met items  
-    ![](images/image-15.png)  
-    Er verschijnt dan een dialoogvenster waarin ook gesleept kan worden.  
-    ![](images/image-16.png)
+   ![](images/image-15.png)  
+   Er verschijnt dan een dialoogvenster waarin ook gesleept kan worden.  
+   ![](images/image-16.png)
 
 _Tip_: het is mogelijk items in één geheel bovenaan de lijst te plaatsen. Dit kan op twee manieren:
 

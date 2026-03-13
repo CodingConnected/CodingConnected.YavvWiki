@@ -63,11 +63,11 @@ Toelichting van de elementen:
 1. Type analyse
 2. Complete lijst met alle beschikbare data, waarbij zichtbaar is welke data voor een bepaalde datum wel/niet beschikbaar is
 3. Instructie knoppen:
-    1. Maak selectie: toont een dialoogvenster met de mogelijkheid op basis van voorwaarden een selectie van dagen te maken. Let op: selecteer éérst de eerste en laatste dag in de lijst, waartussen de selectie gemaakt moet worden; bij toepassen van de voorwaarden worden in dat bereik dagen geselecteerd die aan de voorwaarden voldoen
-        1. Let op: dagen waarop een wijziging in configuratie heeft plaatsgevonden zijn roodgekleurd en kunnen niet worden geselecteerd (want: ze kunnen niet als geheel worden verwerkt)
-    2. Wis selectie: alle dagen deselecteren
-    3. Collect data: ophalen van data
-    4. Auto: indien aangevinkt, wordt bij wijzigen van de selectie of wijzigen van het type analyse, de data automatisch ververst (gebruik hiervan is enkel aan te raden bij selectie van een beperkt aantal dagen!)
+   1. Maak selectie: toont een dialoogvenster met de mogelijkheid op basis van voorwaarden een selectie van dagen te maken. Let op: selecteer éérst de eerste en laatste dag in de lijst, waartussen de selectie gemaakt moet worden; bij toepassen van de voorwaarden worden in dat bereik dagen geselecteerd die aan de voorwaarden voldoen
+      1. Let op: dagen waarop een wijziging in configuratie heeft plaatsgevonden zijn roodgekleurd en kunnen niet worden geselecteerd (want: ze kunnen niet als geheel worden verwerkt)
+   2. Wis selectie: alle dagen deselecteren
+   3. Collect data: ophalen van data
+   4. Auto: indien aangevinkt, wordt bij wijzigen van de selectie of wijzigen van het type analyse, de data automatisch ververst (gebruik hiervan is enkel aan te raden bij selectie van een beperkt aantal dagen!)
 4. Na ophalen van de data verschijnt hier een dropdown box met de mogelijkheid tussen configuraties te wisselen: indien er binnen het bereik van de selectie een of meer wijzigingen in de configuratie heeft plaatsgevonden, worden de resultaten opgehaald per configuratie. Via de dropdown kan worden gewisseld tussen configuraties
 5. Feitelijke analyse weergave: zie [hier](../analyse-weergave/index.md) voor meer info
 
@@ -90,6 +90,6 @@ Bijvoorbeeld:
 
 Dit ziet bijvoorbeeld als volgt uit:
 
-[![](images/image.png)]
+![](images/image.png)
 
 De analyse weergave voor trend data lijkt qua opzet op die van de overige tabbladen, maar kent gezien de aard van de data wat minder opties.

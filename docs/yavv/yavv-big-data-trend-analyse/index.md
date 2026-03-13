@@ -29,7 +29,7 @@ Tijdens het uitvoeren van de trend analyse bepaalt YAVV van diverse waarden de t
 
 Via de tab “Trend analyse” (bij 5 zoals hieronder te zien) komen de opties voor de analyse in beeld.
 
-[![](images/image-2.png)]
+![](images/image-2.png)
 
 Momenteel zijn de volgende opties beschikbaar (de nummers refereren naar de afbeelding):
 
@@ -78,6 +78,6 @@ Ook hier wordt weer de periode gekozen, de categorie en het type analyse. Middel
 
 Middels dit tabblad kan snel door data heen worden gebladerd. Tevens zijn er uitgebreide **export** mogelijkheden:
 
-[![](images/image-3.png)]
+![](images/image-3.png)
 
 In het dialoogvenster voor bulk export kan worden ingesteld voor welke periode en welke analyse data moet worden geëxporteerd. Tevens is het interval instelbaar, en kan worden gekozen data per dag of als geheel te exporteren. Het resultaat is per periode, per analyse en al dan niet per dag een .csv bestand met de data.

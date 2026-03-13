@@ -7,7 +7,7 @@ De weergave van analyse data gebeurt binnen YAVV en YAVC op een generieke manier
 
 - het kan gaan om analyse data op basis van één bestand of reeks bestanden, zoals gebruikelijk in YAVV; dit is beschikbaar via de knop op de toolbar:
 
-[![](images/image-5.png)]
+![](images/image-5.png)
 
 - wordt gewerkt met [YAVV big-data](../../yavv/yavv-big-data-trend-analyse/index.md), dan kan het gaan om gemiddelde data over meerdere dagen, of over data van één specifieke dag uit een reeks
 - in YAVC-client geldt ook dat het kan gaan om een weergave van data van één specifieke dag, of een gemiddelde over meerdere dagen
@@ -20,13 +20,13 @@ Een opmerking vooraf: zowel in YAVV als in YAVC wordt bij wisselen van analyse e
 
 Hieronder wordt de grafische interface voor weergave van analyse data weergegeven:
 
-[![](images/image-6-1024x963.png)]
+![](images/image-6-1024x963.png)
 
 De volgende onderdelen zijn hier te zien:
 
 1. Weergave type: tabel, grafiek of lijst met alle metingen
 2. Type grafiek (alleen zichtbaar bij weergave type grafiek)
-    1. Waar van toepassing is hiernaast nog een vinkje zichtbaar: weergeven alle metingen
+   1. Waar van toepassing is hiernaast nog een vinkje zichtbaar: weergeven alle metingen
 3. Interval tbv. maken tijdvakken
 4. Knop openen extra analyse opties
 5. Lijst met items binnen de analyse
@@ -77,12 +77,12 @@ Deze lijst is vooral handig om snel hoge waarden te filteren uit de data (zie hi
 
 Middels de tandwiel knop (4) is het mogelijk een aantal aanvullende zaken in te stellen rond de visualisatie van de analyse data:
 
-[![](images/image-7.png)]
+![](images/image-7.png)
 
 De opties hier zijn als volgt:
 
 1. Instellen vanaf waar tot waar de data gevisualiseerd moet worden. Dit is begrent door het begin en einde van de huidige data (in YAVV is dat de geopende data, in YAVC doorgaans de geselecteerde dag)
-    1. Let op: start/einde moeten eigenlijk liggen op “hele” interval afstanden vanaf de start van de data. Dit wordt momenteel evenwel niet afgedwongen door de applicatie.
+   1. Let op: start/einde moeten eigenlijk liggen op “hele” interval afstanden vanaf de start van de data. Dit wordt momenteel evenwel niet afgedwongen door de applicatie.
 2. Max. Y-as grafiek: normaal gesproken schaalt de grafiek automatisch mee met de data. Middels deze optie kan de maximale waarde van de Y-as worden vastgezet; hiermee kunnen grafiek op basis van uiteenlopende data gemakkelijk worden vergeleken
 3. Geen kleur voor verborgen items: de applicatie neemt bij elk volgende item de volgende kleur lijn uit een lijst. Ook uitgevinkte items krijgen normaal gesproken een kleur toegewezen. Soms is het handiger als dit niet zo is, zodat tussen verschillende grafieken de kleuren van de lijnen identiek zijn (bv.: intensiteit en intensiteit-fietsers).
 4. Dit is de knop waarmee de extra opties weergegeven/verborgen kunnen worden.
@@ -92,7 +92,7 @@ De opties hier zijn als volgt:
 
 In de toolbar bovenaan het applicatie venster bevinden zich een aantal knoppen waarmee het exporteren van analyse data mogelijk is:
 
-[![](images/image-8.png)]
+![](images/image-8.png)
 
 Van links naar rechts zijn hier de mogelijkheden:
 

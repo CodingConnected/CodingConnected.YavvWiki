@@ -7,7 +7,7 @@ YAVC-client biedt de mogelijkheid data te exporteren voor het veelgebruike macro
 
 De uiteindelijke export kan na configuratie op afroep worden uitgevoerd en ziet er bijvoorbeeld als volgt uit:
 
-[![](images/image-1024x560.png)]
+![](images/image-1024x560.png)
 
 Het exporteren van data voor het verkeersmodel verloopt via een aantal stappen:
 
@@ -22,25 +22,25 @@ Hieronder worden deze stappen nader uitgewerkt.
 
 Open eerst het systeem instellingen werkblad (tandwiel knop op de toolbar of via menu Instellingen > Systeem Instellingen). Dit werkblad opent met een overzicht van alle kruispunten, en van de geselecteerde kruising de detail instellingen. Per kruising moet nu in het tabblad “VLOG Configuraties” worden ingesteld welke kruispuntarmen er zijn, en hoe de signaalgroepen verdeeld zijn over deze armen.
 
-[![](images/image-1-1024x612.png)]
+![](images/image-1-1024x612.png)
 
 De handigste werkwijze is:
 
 - Aanmaken kruispunt armen, al dan niet met gebruik van de knop “Toevoegen defaults”
-    - Stel per arm ook het export ID in, wanneer dit gewenst is; hiermee kunnen kruispuntarmen direct worden gekoppeld aan telpunten in het verkeersmodel
-    - Vink aan of een arm al dan niet meegenomen moet worden in de export. _Let op!_ niet aangevinkte armen komen niet terug in de export!
-    - Merk hierbij op:
-        - Voor de verkeersmodel export is de interne architectuur en afwikkeling op de kruising niet relevant; het betreft enkel de armen die de kruising voeden: die zijn als telpunten in het verkeersmodel opgenomen. Stel er is een interne naloop van 02 > 62, dan is de intensiteit bij 62 voor het verkeersmodel normaal gesproken irrelevant.
-        - Is het de bedoeling dat de configuratie ook gebruikt gaat worden voor visualisatie van verkeersstromen over de kruising, dan moet wél de interne structuur worden geconfigureerd. Houd er hierbij rekening mee, dat voor bijv. een koppeling 02 > 62, er 4 armen nodig zijn: de arm waar 2 vandaan komt, waar 2 naar toe gaat, en idem voor 62. De tussenliggende arm, waar 02 en 62 in elkaar overgaan, kan niet samengevoegd worden, omdat dit geen juiste visualisatie oplevert.
+  - Stel per arm ook het export ID in, wanneer dit gewenst is; hiermee kunnen kruispuntarmen direct worden gekoppeld aan telpunten in het verkeersmodel
+  - Vink aan of een arm al dan niet meegenomen moet worden in de export. _Let op!_ niet aangevinkte armen komen niet terug in de export!
+  - Merk hierbij op:
+    - Voor de verkeersmodel export is de interne architectuur en afwikkeling op de kruising niet relevant; het betreft enkel de armen die de kruising voeden: die zijn als telpunten in het verkeersmodel opgenomen. Stel er is een interne naloop van 02 > 62, dan is de intensiteit bij 62 voor het verkeersmodel normaal gesproken irrelevant.
+    - Is het de bedoeling dat de configuratie ook gebruikt gaat worden voor visualisatie van verkeersstromen over de kruising, dan moet wél de interne structuur worden geconfigureerd. Houd er hierbij rekening mee, dat voor bijv. een koppeling 02 > 62, er 4 armen nodig zijn: de arm waar 2 vandaan komt, waar 2 naar toe gaat, en idem voor 62. De tussenliggende arm, waar 02 en 62 in elkaar overgaan, kan niet samengevoegd worden, omdat dit geen juiste visualisatie oplevert.
 - Stel per signaalgroep in, bij welke kruispuntarm deze hoort, al dan niet met gebruik van de knop “Toepassen defaults”. Die knop zorgt voor automatische toedeling van signaalgroepen op basis van naamgeving, waarbij 01/02/03 bij de oostelijke arm worden toebedeeld, etc.
-    - Merk hierbij op: instellen van de arm(en) waar een signaalgroep naar toe rijdt is voor de model export niet relevant. Om de configuratie te gebruiken voor visualisatie van verkeersstromen is dit wel belangrijk.
+  - Merk hierbij op: instellen van de arm(en) waar een signaalgroep naar toe rijdt is voor de model export niet relevant. Om de configuratie te gebruiken voor visualisatie van verkeersstromen is dit wel belangrijk.
 - Sla de configuratie op, _zonder herberekenen van analyse data._ Dit laatste is belangrijk, omdat anders de analyse data wordt verwijderd en moet worden herberekend, wat hier echter niet nodig is. Indien tegelijk andere wijzigingen aan de VLOG configuratie zijn gedaan, geldt dit natuurlijk niet!
 
 ## Configuratie van de export
 
 Open het werkblad voor de verkeersmodel export via het menu Tools > Export verkeersmodel. Het werkblad opent met een lijst met kruispunten en de instellingen voor de export. In de lijst kunnen een of meer kruispunten worden gekozen die meegenomen moeten worden in de export van data.
 
-[![](images/image-2-1024x778.png)]
+![](images/image-2-1024x778.png)
 
 Qua instellingen is het volgende beschikbaar (de cijfers tussen blokhaken \[\] refereren naar de afbeelding hierboven):
 
@@ -48,10 +48,10 @@ Qua instellingen is het volgende beschikbaar (de cijfers tussen blokhaken \[\] r
 - Dekkingsgraad data \[3\]: dagen binnen het opgegeven bereik (start – einde) moeten minimaal deze dekkingsgraad hebben qua data om te worden meegenomen in de selectie
 - Dagen van de week \[2\]: hier kan wordena angevinkt welke dagen van de week meegenomen moeten worden
 - Perioden \[4\]: middels rechtermuisklik kunnen hier perioden worden toegevoegd/verwijderd. Per opgegeven periode zal per kruispuntarm de intensiteit worden gesommeerd en zo in de export terecht komen. Per periode kan worden opgegeven:
-    - Type \[5\]: periode, of collectie van onderliggende perioden. Bij keuze voor een collectie, kan geen start/einde worden ingesteld, maar kunnen (via rechtermuisklik op de periode in de lijst) onderliggende perioden worden toegevoegd. Zo kan in de export de intensiteit van meerdere perioden in één kolom terecht komen, bv. de intensiteit buiten de spitsen
-    - Naam \[5\]: de naam van de periode
-    - Start / eind tijd \[5\]
-    - Exporteren drukste uur \[5\]: indien aangevinkt, zal in de export enkel het drukste uur worden opgenomen. Dit betreft dan het aaneengesloten drukste uur binnen de betreffende periode, waarbij wordt gezocht per kwartie
+  - Type \[5\]: periode, of collectie van onderliggende perioden. Bij keuze voor een collectie, kan geen start/einde worden ingesteld, maar kunnen (via rechtermuisklik op de periode in de lijst) onderliggende perioden worden toegevoegd. Zo kan in de export de intensiteit van meerdere perioden in één kolom terecht komen, bv. de intensiteit buiten de spitsen
+  - Naam \[5\]: de naam van de periode
+  - Start / eind tijd \[5\]
+  - Exporteren drukste uur \[5\]: indien aangevinkt, zal in de export enkel het drukste uur worden opgenomen. Dit betreft dan het aaneengesloten drukste uur binnen de betreffende periode, waarbij wordt gezocht per kwartie
 
 ## Uitvoeren van de export
 
@@ -76,6 +76,6 @@ Klikken op een regel in de tabel zorgt voor weergave van enige details van de bi
 
 Opslaan van de opgehaalde data gaat via de knoppen op de toolbar:
 
-[![](images/image-3.png)]
+![](images/image-3.png)
 
 De data kan worden opgeslagen als .xlsx (Excel), .csv (tekstbestand met daarin met ; gesepareerde data velden) of op het klembord worden geplaatst als .csv data. De opties voor export naar .pdf of .png (afbeelding) zijn niet beschikbaar omdat dit hier geen meerwaarde biedt.

@@ -26,7 +26,7 @@ Voor het gebruik van de topologie functionaliteit binnen YAVV is een aanvullende
 
 Wanneer de addon beschikbaar is, en de juiste licentie wordt gevonden, komt er in het menu File een extra optie beschikbaar: "Openen ITF bestand". Gebruik deze optie om het gewenste XML bestand met de ITF data te selecteren. Er wordt een nieuw tabblad geopend, waarin de data op kaart wordt geplot, en van de lanes en detectie tevens data in tabelvorm zichtbaar is.
 
-[![](images/image-8.png)]
+![](images/image-8.png)
 
 ### Navigeren in de data
 
@@ -38,15 +38,15 @@ Klikken op een lane of detector in de tabel of op kaart zorgt voor selectie van 
 
 De weergave van lanes, connections (dat zijn de verbindingen tussen lanes die over het kruisingsvlak lopen) en detectoren is instelbaar. Klik hierop het knopje met het tandiwiel symbool rechts bovenin het venster met de kaart.
 
-[![](images/image-10.png)]
+![](images/image-10.png)
 
 De instellingen spreken grotendeels voor zichzelf, hieronder nog een overzicht:
 
 - Basis kaartlaag: dit is de kaartlaag die onder de ITF data komt te liggen. Er zijn diverse opties, waaronder:
-    - Diverse kaarten van Microsoft Bing
-    - Openstreetmap
-    - Kaarten van het [nationale georegister](https://www.nationaalgeoregister.nl/) waaronder een luchtfoto en "BRT top 10"
-    - Etc.
+  - Diverse kaarten van Microsoft Bing
+  - Openstreetmap
+  - Kaarten van het [nationale georegister](https://www.nationaalgeoregister.nl/) waaronder een luchtfoto en "BRT top 10"
+  - Etc.
 - Weergeven streepplaat: zorgt voor weergave van lijnen bovenop het kaartbeeld met GPS informatie
 - Lane default dikte: dikte van lanes indien niet gekoppeld aan analyse data
 - Default lane kleur: kleur van lanes indien niet gekoppeld aan analyse data
@@ -57,8 +57,8 @@ De instellingen spreken grotendeels voor zichzelf, hieronder nog een overzicht:
 - Lane labels weergeven: indien dit aan staat worden labels weergegeven met de naam van bij een lane behorende signaalgroep. Indien een signaalgroep meerdere lanes heeft, wordt \[1\], \[2\] etc. achter de naam van de fase geplaatst
 - Lettergrootte en doorzichtigheid label: spreekt voor zichzelf
 - Type data weergave: indien er analyse data met de ITF wordt gekoppeld, bepaalt deze instelling het type koppeling: kleur, lijndikte of beide
-    - Bij keuze voor dikte of beide komen twee extra opties tevoorschijn voor minimale en maximale dikte
-    - Bij keuze voor kleur of beide kan het kleurverloop worden ingesteld
+  - Bij keuze voor dikte of beide komen twee extra opties tevoorschijn voor minimale en maximale dikte
+  - Bij keuze voor kleur of beide kan het kleurverloop worden ingesteld
 - Lanes zonder data kleur: kleur van lanes die niet gekoppeld zijn aan een signaalgroep
 - Detectie weergeven: al dan niet weergeven van detectoren op kaart; alleen relevant indien er detectoren (sensoren in ITF termen) in de data zitten én die detectoren beschikken over geo data (hun "shape" ofwel vorm).
 - Detectie lijn dikte, kleur: spreekt voor zichzelf

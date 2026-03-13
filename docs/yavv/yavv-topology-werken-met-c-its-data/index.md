@@ -32,9 +32,8 @@ Ontvangen C-ITS data kan als volgt worden geladen in YAVV:
 - Open eerst een topologie/ITF bestand (via menu Bestand of middels sneltoets Ctrl+T)
 
 - Open nu de bijbehorende C-ITS data:
-    - In gedecodeerd .csv formaat (via menu Bestand of middels sneltoets Ctrl+Shift+T); het is mogelijk in één keer meerdere bestanden te openen, bv. één of meer met CAM, één of meer met SRM en één of meer met SSM
-    
-    - Als map met daarin .tar en/of .csv.gz bestanden (via menu Bestand of middels sneltoets Ctrl+Shift+T)
+  - In gedecodeerd .csv formaat (via menu Bestand of middels sneltoets Ctrl+Shift+T); het is mogelijk in één keer meerdere bestanden te openen, bv. één of meer met CAM, één of meer met SRM en één of meer met SSM
+  - Als map met daarin .tar en/of .csv.gz bestanden (via menu Bestand of middels sneltoets Ctrl+Shift+T)
 
 Er wordt nu een nieuw werkblad geopend met de geladen data in de vorm van een aantal tabellen. YAVV/topo kan grote hoeveelheden data aan; inladen van meerdere dagen aan data voor een groter gebied is geen issue; wel zal het enige tijd kosten dit in te laden.
 
@@ -43,28 +42,20 @@ Er wordt nu een nieuw werkblad geopend met de geladen data in de vorm van een aa
 - Opnieuw inladen van C-ITS data zorgt voor vervangen van evt. eerder ingeladen data. Bij sluiten van het C-ITS tabblad wordt op kaart (dwz. op het topologie werkblad) weergegeven data eveneens verwijderd.
 
 - Identieke berichten in de data worden slechts één keer ingeladen. Als identiek gelden berichten waarvoor geldt:
-    - de tijd is identiek
-    
-    - het type is identiek (CAM / SRM / SSM)
-    
-    - het station ID is identiek (bij SSM: óók het verhicle station ID is uniek)
+  - de tijd is identiek
+  - het type is identiek (CAM / SRM / SSM)
+  - het station ID is identiek (bij SSM: óók het verhicle station ID is uniek)
 
 ### Formaat gedecodeerde data (.csv)
 
 Indien gebruik wordt gemaakt van gedecodeerde data uit een of meer .csv bestanden, dienen deze bestanden een vast formaat te volgen:
 
 - Het separeer teken tussen velden is een komma
-
 - Decimalen worden aangeven middels een . dus bv "1.5" voor één komma vijf
-
 - De eerste regel van het bestand moet de header bevatten met kolom namen
-
 - Daarna moet elke regel exact even veel velden bevatten als er kolommen zijn uit de eerste regel
-
 - Er zijn geen verplichte velden en de volgorde van velden mag afwijken van onderstaande voorbeelden; de volgorde moet natuurlijk wel identiek zijn tussen header en navolgende regels
-
 - De timestamps moeten het formaat volgen zoals hieronder aangegeven
-
 - Timestamp worden altijd geïnterpreteerd als UTC
 
 Voor **CAM** levert dat bv op (header en één regel met dummy data):
@@ -107,38 +98,26 @@ Na openen van de C-ITS data verschijnt er een nieuw werkblad. Dit hoort nu bij h
 ![](images/image-1.png)  
 Gebruik naar wens [de multivenster omgeving van YAVV](../werkbladen-en-gebruikersinterface-van-yavv/index.md) om het werkblad bv. naast, boven of onder de kaartweergave van de geladen topologie te plaatsen, zoals bijvoorbeeld hieronder te zien is:
 
-[![](images/1698155736616-1024x502.jpg)]
+![](images/1698155736616-1024x502.jpg)
 
 Het C-ITS werkblad toont een drietal tabbladen:
 
 - Stations:
-    - een lijst met alle gevonden (als het goed is unieke) station ID's, met per ID daarbij weergegeven de tijd van het eerste bericht waarin dit ID voor komt
-    
-    - de lijst met station ID's is gesorteerd op tijd; klik om te sorteren op ID of die kolom
-    
-    - de lijst kan worden gefilterd door bij de kolom Station ID wat in te vullen; zo kan snel een bepaald station gezocht worden in een mogelijk zeer lange lijst (bv. om de CAM berichten bij een specifiek SSM bericht uit het tabblad SSM te kunnen zien)
-    
-    - naast de lijst met station ID's een lijst met alle berichten behorende bij het geselecteerde station ID
-    
-    - ook deze lijst is default gesorteerd op tijd; klik op een kolom om de sortering aan te passen
-    
-    - ook deze lijst kan worden gefilterd via de knoppen bovenaan de kolommen
-
+  - een lijst met alle gevonden (als het goed is unieke) station ID's, met per ID daarbij weergegeven de tijd van het eerste bericht waarin dit ID voor komt
+  - de lijst met station ID's is gesorteerd op tijd; klik om te sorteren op ID of die kolom
+  - de lijst kan worden gefilterd door bij de kolom Station ID wat in te vullen; zo kan snel een bepaald station gezocht worden in een mogelijk zeer lange lijst (bv. om de CAM berichten bij een specifiek SSM bericht uit het tabblad SSM te kunnen zien)
+  - naast de lijst met station ID's een lijst met alle berichten behorende bij het geselecteerde station ID
+  - ook deze lijst is default gesorteerd op tijd; klik op een kolom om de sortering aan te passen
+  - ook deze lijst kan worden gefilterd via de knoppen bovenaan de kolommen
 - SRM
-    - een lijst met alle in de data gevonden SRM berichten
-    
-    - default gesorteerd op tijd; klik op een kolom om de sortering aan te passen
-    
-    - filtering is mogelijk middels de knoppen op de kolommen
-
+  - een lijst met alle in de data gevonden SRM berichten
+  - default gesorteerd op tijd; klik op een kolom om de sortering aan te passen
+  - filtering is mogelijk middels de knoppen op de kolommen
 - SSM
-    - een lijst met alle in de data gevonden SRM berichten
-    
-    - default gesorteerd op tijd; klik op een kolom om de sortering aan te passen
-    
-    - filtering is mogelijk middels de knoppen op de kolommen
-    
-    - _merk op:_ SSM berichten hebben als "Station ID" het ID van de RSU; de koppeling met CAM / SRM data loopt via het "Vehicle Station ID"
+  - een lijst met alle in de data gevonden SRM berichten
+  - default gesorteerd op tijd; klik op een kolom om de sortering aan te passen
+  - filtering is mogelijk middels de knoppen op de kolommen
+  - _merk op:_ SSM berichten hebben als "Station ID" het ID van de RSU; de koppeling met CAM / SRM data loopt via het "Vehicle Station ID"
 
 SRM en SSM data bevat normaal gesproken geen GPS coördinaten. Indien er ook CAM berichten zijn gevonden met het betreffende station ID, zal YAVV/topo op basis van de heading en snelheid van het in de tijd voorliggende CAM bericht (of eerstvolgende, indien er geen voorliggend CAM bericht is) coördinaten berekenen voor SRM en SSM berichten.
 
@@ -157,14 +136,10 @@ Voor de weergave van C-ITS data in de fasenlog maakt YAVV/topo gebruik van de sy
 Om dit te gebruiken, ga als volgt te werk:
 
 - Selecteer het werkblad met de fasenlog waarin de C-ITS data zal worden weergegeven. Bij weergave van werkbladen naast/boven elkaar, klik toch op het werkblad of op de titel van het werkblad, zodat dit het geselecteerde werkblad wordt.
-    - Dit kan ook door in de Documenten manager op de betreffende fasenlog te klikken
-
+  - Dit kan ook door in de Documenten manager op de betreffende fasenlog te klikken
 - Klik in [de Documenten manager](../documentenbeheer-in-yavv/index.md) onderaan bij "Document settings"
-
 - Vink "Synchroniseer" aan
-
 - Selecteer het topology document uit de lijst
-
 - Merk op: de koppeling verloopt qua instelling in YAVV dus _vanuit_ het VLOG document _naar_ het topologie document; wanneer het topologie document wordt geselecteerd (door selectie een werkblad dat bij het document hoort) zal "Synchroniseer" dan ook zijn uitgevinkt
 
 De C-ITS data (dwz. SRM en SSM) wordt nu geplot op de fasenlog. De koppeling verloopt door te kijken naar lane ID, ingress approach ID of connection ID zoals is opgenomen in het SRM / SSM bericht (van deze drie is er altijd slechts één aanwezig in het bericht). Bij de fase(n) behorende bij het betreffende ID wordt de C-ITS data geplot. CAM data wordt (momenteel) niet geplot in de fasenlog.

@@ -16,15 +16,14 @@ De lokale configuratie wordt op schijf opgeslagen (in C:\\Users\\<username>\\App
 Is de configuratie nee meeverpakt (bijvoorbeeld bij installatie van de client op een eigen laptop), dan moet dit **eenmalig** worden ingesteld. U ontvangt hiertoe een configuratie bestand van CodingConnected. Om dit bestand te gebruiken:
 
 - Start YAVC-client
-    - _Let op_: log niet in op het login venster dat nu verschijnt; dit is een default venster en dit werkt enkel in de testomgeving van CodingConnected
+  - _Let op_: log niet in op het login venster dat nu verschijnt; dit is een default venster en dit werkt enkel in de testomgeving van CodingConnected
 
 - Klik op het pijltje links van "Instellingen" om deze uit te klappen
 
 - Klik op "..." en zoek het configuratie bestand op
 
 - Klik nu op "Laden":  
-    ![](images/image-12.png)
-    
+   ![](images/image-12.png)
 
 - Herstart nu de client; de inlog pagina van uw organisatie (of van uw installatie van YAVC) zal nu worden weergegeven
 
@@ -46,7 +45,7 @@ Heeft u toegang tot meerdere installaties van YAVC, bijvoorbeeld als adviseur va
 
 De client instellingen worden in tegenstelling tot de lokale instellingen opgeslagen in de database van YAVC, bij het gebruikersprofiel. Zo zijn de instellingen gelijk ongeacht de locatie van waaraf YAVC-client wordt gebruikt. Deze instellingen zijn toegankelijk via het menu Beeld > Client instellingen (of sneltoets F6):
 
-[![](images/image-13.png)]
+![](images/image-13.png)
 
 Er verschijnt nu een werkblad met een aantal tabbladen:
 
@@ -70,22 +69,16 @@ De interface voor deze instellingen wordt hierboven weergegeven. De volgende opt
 
 1. Actuele rol: alleen lezen; hier is te zien welke rol de gebruiker heeft in YAVC
 
-3. Naam, email; de naam wordt gebruikt om bv. richting andere gebruikers weer te geven wie evt. aan de instellingen aan het werk is. Het email adres wordt gebruikt voor verzenden van alerts
+2. Naam, email; de naam wordt gebruikt om bv. richting andere gebruikers weer te geven wie evt. aan de instellingen aan het werk is. Het email adres wordt gebruikt voor verzenden van alerts
 
-5. Hier wordt ingesteld:
-    1. Wel/niet ontvangen van email alerts: indien uit wordt niets verzonden
-    
-    3. Alle email alerts: indien aan wordt alles verzonden. _Let op!_ Dit kan een veelheid aan emails tot gevolg hebben, omdat niet wordt gekeken naar de aard en prioriteit van meldingen
-    
-    5. Minimaal aantal simultane data verzameling issues voordat een alerts wordt verzonden; hiermee kan worden gezorgd dat pas wanneer er tegelijk een X aantal meldingen omtrent dataverzameling optreden, een alert wordt verzonden (zo kan bv. een netwerk fout worden herkend)
+3. Hier wordt ingesteld:
+   1. Wel/niet ontvangen van email alerts: indien uit wordt niets verzonden
+   2. Alle email alerts: indien aan wordt alles verzonden. _Let op!_ Dit kan een veelheid aan emails tot gevolg hebben, omdat niet wordt gekeken naar de aard en prioriteit van meldingen
+   3. Minimaal aantal simultane data verzameling issues voordat een alerts wordt verzonden; hiermee kan worden gezorgd dat pas wanneer er tegelijk een X aantal meldingen omtrent dataverzameling optreden, een alert wordt verzonden (zo kan bv. een netwerk fout worden herkend)
 
-7. Alert instellingen per type: hier kann worden ingesteld welke alerts wel/niet moeten worden verzonden, en vanaf welk prioriteitsniveau. De typen zijn:
-    1. Data verzameling: dit is wellicht het belangrijkst: indien de verzameling stokt wordt een issue aangemaakt door YAVC. Hoe langer dit aanhoudt, hoe hoger de prioriteit wordt. Zie ook [hier](../yavc-bewaking-dataverzameling/index.md).
-    
-    3. Data integriteit: dit type issue wordt aangemaakt wanneer er fouten in de data worden gevonden; denk hierbij aan verkeerde volgorde van berichten, CRC fouten, etc.
-    
-    5. Data verwerking: indien het verwerken van data stokt, er dus geen analyse data meer wordt aangemaakt, wordt dit type issue aangemaakt
-    
-    7. Configuratie: dit wordt aangemaakt wanneer YAVC een nieuwe configuratie heeft herkend in de data (zie verder [hier](../omgang-met-configuraties-in-yavc/index.md))
-    
-    9. Archivering: dit wordt aangemaakt wanneer de archivering van data mislukt (bv. omdat het archief vol is)
+4. Alert instellingen per type: hier kann worden ingesteld welke alerts wel/niet moeten worden verzonden, en vanaf welk prioriteitsniveau. De typen zijn:
+   1. Data verzameling: dit is wellicht het belangrijkst: indien de verzameling stokt wordt een issue aangemaakt door YAVC. Hoe langer dit aanhoudt, hoe hoger de prioriteit wordt. Zie ook [hier](../yavc-bewaking-dataverzameling/index.md).
+   2. Data integriteit: dit type issue wordt aangemaakt wanneer er fouten in de data worden gevonden; denk hierbij aan verkeerde volgorde van berichten, CRC fouten, etc.
+   3. Data verwerking: indien het verwerken van data stokt, er dus geen analyse data meer wordt aangemaakt, wordt dit type issue aangemaakt
+   4. Configuratie: dit wordt aangemaakt wanneer YAVC een nieuwe configuratie heeft herkend in de data (zie verder [hier](../omgang-met-configuraties-in-yavc/index.md))
+   5. Archivering: dit wordt aangemaakt wanneer de archivering van data mislukt (bv. omdat het archief vol is)

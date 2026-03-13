@@ -11,7 +11,7 @@ Precies deze vraag heeft centraal gestaan bij de ontwikkeling van de tooling voo
 
 De gebruikersinterface wordt hieronder weergegeven; de verschillende elementen worden verderop nader toegelicht:
 
-[![](images/yavv_evaluatie_view-667x1024.png)]
+![](images/yavv_evaluatie_view-667x1024.png)
 
 De interface bestaat in de basis uit 3 elementen:
 
@@ -27,20 +27,20 @@ Voor het instellen van de weergave zijn diverse opties beschikbaar:
 
 - De weer te geven periode (1): alleen data van de geselecteerde periode wordt weegegeven
 - De weer te geven signaalgroep categorie (2):
-    - hiermee kan een subset uit de data worden gefilterd voor de weergave; bijvoorbeeld enkel meenemen van signaalgroepen van één bepaalde categorie
-    - deze optie is niet beschikbaar wanneer op een categorie of signaalgroep is ingezoomd
+  - hiermee kan een subset uit de data worden gefilterd voor de weergave; bijvoorbeeld enkel meenemen van signaalgroepen van één bepaalde categorie
+  - deze optie is niet beschikbaar wanneer op een categorie of signaalgroep is ingezoomd
 - Mee te nemen/weer te geven indicatoren (3):
-    - voor meer informatie over de indicatoren: zie [hier](../evaluatie-indicatoren/index.md)
-    - afhankelijk van de actuele weergave wordt hiermee bepaald welke indicatoren worden meegenomen voor het bepalen van het weer te geven cijfer
-    - bij meerdere indicatoren wordt het rekenkundige gemiddelde over de betreffende cijfers weergegeven
-    - is ingezoomd op een signaalgroep of periode, dan wordt hiermee bepaald welke indicatoren in de matrix weergegeven moeten worden
+  - voor meer informatie over de indicatoren: zie [hier](../evaluatie-indicatoren/index.md)
+  - afhankelijk van de actuele weergave wordt hiermee bepaald welke indicatoren worden meegenomen voor het bepalen van het weer te geven cijfer
+  - bij meerdere indicatoren wordt het rekenkundige gemiddelde over de betreffende cijfers weergegeven
+  - is ingezoomd op een signaalgroep of periode, dan wordt hiermee bepaald welke indicatoren in de matrix weergegeven moeten worden
 - Tijdsperiode instellingen (4):
-    - Start datum: de datum vanaf wanneer de matrix wordt gevuld (let op: we gaan tbv. ophalen data vanaf dit _terug_ in de tijd!)
-    - Weergave per: lengte periode: dag/week/maand
-    - Aantal terug: aantal perioden terug dat moet worden opgehaald en weergegeven (momenteel maximaal 31)
-    - Weekdagen selecteren: hiermee kan worden bepaald welke dagen van de week moeten worden weergegeven of moeten worden meegenomen om het weer te geven cijfer (bv. per week) te bepalen.
+  - Start datum: de datum vanaf wanneer de matrix wordt gevuld (let op: we gaan tbv. ophalen data vanaf dit _terug_ in de tijd!)
+  - Weergave per: lengte periode: dag/week/maand
+  - Aantal terug: aantal perioden terug dat moet worden opgehaald en weergegeven (momenteel maximaal 31)
+  - Weekdagen selecteren: hiermee kan worden bepaald welke dagen van de week moeten worden weergegeven of moeten worden meegenomen om het weer te geven cijfer (bv. per week) te bepalen.
 - Weergave type (5): hier kan worden gekozen tussen rapportcijfers of verandering/delta (ten opzichte van de vorige cel). Indien op een periode (dag/week/maand) is ingezoomd, kan de delta niet worden weergegeven; in plaats kan dan de analyse waarde die de basis heeft gevormd voor het cijfer worden weergegeven. Merk hierbij op: deze data wordt zonder grootheid weergegeven; de betekenis van het getal is verschillend per indicator!
-    - In de toekomst zal nog worden toegevoegd de optie om de afwijking ten opzichte van het gemiddelde over de ingestelde periode weer te geven.
+  - In de toekomst zal nog worden toegevoegd de optie om de afwijking ten opzichte van het gemiddelde over de ingestelde periode weer te geven.
 - Visualisatie type (6): in plaats van een matrix kan ook een grafiek worden gebruikt voor de visualisatie van de data. Inzoomen op een periode is bij weergave in grafiekvorm momenteel niet mogelijk.
 
 ## Navigatie door de data
