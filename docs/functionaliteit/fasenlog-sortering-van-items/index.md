@@ -10,7 +10,7 @@ Bij openen van data is de default volgorde van items:
 - dan alle **ingangen**
 - en tenslotte alle **uitgangen**
 
-_Let op_: indien een .yavv file gevonden wordt bij de data of in de default map met configuraties ([zie hier](https://www.codingconnected.eu/yavvwiki/uncategorized/omgang-met-configuraties-in-yavc/)) wordt de volgorde uit de configuratie direct ingeladen.
+_Let op_: indien een .yavv file gevonden wordt bij de data of in de default map met configuraties ([zie hier](../../yavc/omgang-met-configuraties-in-yavc/index.md)) wordt de volgorde uit de configuratie direct ingeladen.
 
 _Let op 2_: in YAVC-client worden wijzigingen in weergave of sortering momenteel na afsluiten van de fasenlog niet bewaard; opslag van weergave profielen staat op de wensenlijst.
 

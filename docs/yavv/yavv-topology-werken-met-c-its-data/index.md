@@ -103,11 +103,11 @@ _**Let op!**_ Bij uitlezen van C-ITS berichten (decoderen van de "payload"), gel
 
 ## Werken met de data: het C-ITS werkblad
 
-Na openen van de C-ITS data verschijnt er een nieuw werkblad. Dit hoort nu bij het reeds geopende topologie document, de data wordt dus expliciet ingeladen bij een reeds geopend topologie bestand (zie voor informatie over documenten en werkbladen in YAVV [dit artikel](https://www.codingconnected.eu/yavvwiki/algemeen/documentenbeheer-in-yavv/)). In de [Documenten manager](https://www.codingconnected.eu/yavvwiki/algemeen/documentenbeheer-in-yavv/) van YAVV (weer te geven via menu Beeld) is dit ook te zien:  
+Na openen van de C-ITS data verschijnt er een nieuw werkblad. Dit hoort nu bij het reeds geopende topologie document, de data wordt dus expliciet ingeladen bij een reeds geopend topologie bestand (zie voor informatie over documenten en werkbladen in YAVV [dit artikel](../documentenbeheer-in-yavv/index.md)). In de [Documenten manager](../documentenbeheer-in-yavv/index.md) van YAVV (weer te geven via menu Beeld) is dit ook te zien:  
 ![](images/image-1.png)  
-Gebruik naar wens [de multivenster omgeving van YAVV](https://www.codingconnected.eu/yavvwiki/algemeen/werkbladen-en-gebruikersinterface-van-yavv/) om het werkblad bv. naast, boven of onder de kaartweergave van de geladen topologie te plaatsen, zoals bijvoorbeeld hieronder te zien is:
+Gebruik naar wens [de multivenster omgeving van YAVV](../werkbladen-en-gebruikersinterface-van-yavv/index.md) om het werkblad bv. naast, boven of onder de kaartweergave van de geladen topologie te plaatsen, zoals bijvoorbeeld hieronder te zien is:
 
-[![](images/1698155736616-1024x502.jpg)](https://www.codingconnected.eu/wp-content/uploads/2023/11/1698155736616.jpg)
+[![](images/1698155736616-1024x502.jpg)]
 
 Het C-ITS werkblad toont een drietal tabbladen:
 
@@ -152,14 +152,14 @@ Het geselecteerde bericht licht op op de kaart. Tevens zorgt een klik op een ber
 
 ## Weergave van C-ITS data in de fasenlog
 
-Voor de weergave van C-ITS data in de fasenlog maakt YAVV/topo gebruik van de synchronisatie optie tussen documenten die in YAVV is ingebouwd. Bijvoorbeeld [synchronisatie tussen fasenlogs](https://www.codingconnected.eu/yavvwiki/fasenlog/synchronisatie-tussen-fasenlogs/) alsook [synchronisatie tussen de topologie weergave en analyse data](https://www.codingconnected.eu/yavvwiki/topology/yavv-topology-koppelen-met-analyse-data/) werkt ook op deze manier.
+Voor de weergave van C-ITS data in de fasenlog maakt YAVV/topo gebruik van de synchronisatie optie tussen documenten die in YAVV is ingebouwd. Bijvoorbeeld [synchronisatie tussen fasenlogs](../../functionaliteit/synchronisatie-tussen-fasenlogs/index.md) alsook [synchronisatie tussen de topologie weergave en analyse data](../yavv-topology-koppelen-met-analyse-data/index.md) werkt ook op deze manier.
 
 Om dit te gebruiken, ga als volgt te werk:
 
 - Selecteer het werkblad met de fasenlog waarin de C-ITS data zal worden weergegeven. Bij weergave van werkbladen naast/boven elkaar, klik toch op het werkblad of op de titel van het werkblad, zodat dit het geselecteerde werkblad wordt.
     - Dit kan ook door in de Documenten manager op de betreffende fasenlog te klikken
 
-- Klik in [de Documenten manager](https://www.codingconnected.eu/yavvwiki/algemeen/documentenbeheer-in-yavv/) onderaan bij "Document settings"
+- Klik in [de Documenten manager](../documentenbeheer-in-yavv/index.md) onderaan bij "Document settings"
 
 - Vink "Synchroniseer" aan
 
@@ -169,6 +169,6 @@ Om dit te gebruiken, ga als volgt te werk:
 
 De C-ITS data (dwz. SRM en SSM) wordt nu geplot op de fasenlog. De koppeling verloopt door te kijken naar lane ID, ingress approach ID of connection ID zoals is opgenomen in het SRM / SSM bericht (van deze drie is er altijd slechts één aanwezig in het bericht). Bij de fase(n) behorende bij het betreffende ID wordt de C-ITS data geplot. CAM data wordt (momenteel) niet geplot in de fasenlog.
 
-In de Documenten manager is nog een optie "Fasenlog tijd synchroniseren"; deze is default aan en zorgt ervoor dat bij selectie van een C-ITS bericht in het C-ITS werkblad of op kaart, de fasenlog naar dat moment toespringt. Zie bij [de instellingen van de fasenlog](https://www.codingconnected.eu/yavvwiki/algemeen/yavv-instellingen/) (bij de bullet "Items onder Weergave selectie/tijd") om de plaatsing van dat moment op het scherm te bepalen. Het resultaat in de fasenlog is hieronder te zien:
+In de Documenten manager is nog een optie "Fasenlog tijd synchroniseren"; deze is default aan en zorgt ervoor dat bij selectie van een C-ITS bericht in het C-ITS werkblad of op kaart, de fasenlog naar dat moment toespringt. Zie bij [de instellingen van de fasenlog](../yavv-instellingen/index.md) (bij de bullet "Items onder Weergave selectie/tijd") om de plaatsing van dat moment op het scherm te bepalen. Het resultaat in de fasenlog is hieronder te zien:
 
 ![](images/citsfasenlog.jpg)

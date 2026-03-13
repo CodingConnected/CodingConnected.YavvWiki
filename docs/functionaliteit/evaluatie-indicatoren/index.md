@@ -3,7 +3,7 @@ title: "Evaluatie: indicatoren"
 date: 2023-03-29
 ---
 
-Dit artikel omschrijft de beschikbare verkeerskundige indicatoren binnen de evalautie tooling van YAVV/YAVC. Voor meer informatie over deze module, zie [hier](https://www.codingconnected.eu/yavvwiki/evaluatie/yavv-yavc-evaluatie-introductie/).
+Dit artikel omschrijft de beschikbare verkeerskundige indicatoren binnen de evalautie tooling van YAVV/YAVC. Voor meer informatie over deze module, zie [hier](../yavv-yavc-evaluatie-introductie/index.md).
 
 Bij het uitvoeren van een evaluatie wordt verkeerskundige data omgerekend naar rapportcijfers. De verkeerskunige data betreft hier niet altijd 1 op 1 de data die binnen YAVV/YAVC zichtbaar is bij de analyse. Welke indicatoren beschikbaar zijn, en wat deze precies inhouden, wordt hieronder toegelicht.
 

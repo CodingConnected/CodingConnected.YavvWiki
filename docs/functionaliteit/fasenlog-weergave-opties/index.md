@@ -41,7 +41,7 @@ _Let op_: de toolbar "Speciaal" heeft een aantal extra opties die alleen via het
     1. Openen analyse tabblad
     2. Openen tabblad 'DSI op kaart'
     3. Openen configuratie tabblad
-2. [Configuraties](https://www.codingconnected.eu/yavvwiki/uncategorized/omgang-met-configuraties-in-yavc/)
+2. [Configuraties](../../yavc/omgang-met-configuraties-in-yavc/index.md)
     1. Openen opgeslagen configuratie
     2. Opslaan huidige configuratie
 3. GUS/WUS (gewenste en werkelijke aansturing IO)
@@ -49,7 +49,7 @@ _Let op_: de toolbar "Speciaal" heeft een aantal extra opties die alleen via het
     2. Gewenste status signaalgroepen
     3. Werkelijke status uitgangen
     4. Gewenste status uitgangen
-4. Weergave ([sortering items](https://www.codingconnected.eu/yavvwiki/fasenlog/fasenlog-sortering-van-items/) en [zoom](https://www.codingconnected.eu/yavvwiki/fasenlog/werking-van-de-fasenlog/))
+4. Weergave ([sortering items](../fasenlog-sortering-van-items/index.md) en [zoom](../werking-van-de-fasenlog/index.md))
     1. Signaalgroepen sorteren boven detectie
     2. Detectoren sorteren bij signaalgroepen
     3. Horizontale zoom
@@ -77,7 +77,7 @@ _Let op_: de toolbar "Speciaal" heeft een aantal extra opties die alleen via het
     1. Visualisatie timings op de fasenlog
     2. Weergave accuraatheid voorspellingen roodtijd
     3. Weergave accuraatheid voorspellingen groentijd
-8. [Selectie in de tijd](https://www.codingconnected.eu/yavvwiki/fasenlog/fasenlog-selectie-in-de-tijd/): hier wordt start, einde en duur van een selectie in de tijd in de fasenlog weergegeven. Middels de "gum" knop geheel rechts wordt de selectie verwijderd.
+8. [Selectie in de tijd](../fasenlog-selectie-in-de-tijd/index.md): hier wordt start, einde en duur van een selectie in de tijd in de fasenlog weergegeven. Middels de "gum" knop geheel rechts wordt de selectie verwijderd.
 9. Export
     1. Export naar .xlsx (Excel)
     2. Export naar PDF

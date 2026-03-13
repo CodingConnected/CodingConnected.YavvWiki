@@ -9,7 +9,7 @@ _Let op_: de huidige versie van YAV-client biedt nog geen mogelijkheden voor syn
 
 ## Synchroniseren van fasenlogs
 
-Lees voor een goed begrip van deze functionaliteit eerst het artikel over [documenten beheer binnen YAVV](https://www.codingconnected.eu/yavvwiki/algemeen/documentenbeheer-in-yavv/).
+Lees voor een goed begrip van deze functionaliteit eerst het artikel over [documenten beheer binnen YAVV](../../yavv/documentenbeheer-in-yavv/index.md).
 
 In YAVV is het mogelijk twee fasenlogs in de tijd en/of qua layout te synchroniseren. Synchroon in de tijd betekent dat bij schuiven in de tijd in de ene fasenlog, de andere mee schuif, al dan niet met een bepaalde offset. Synchroon qua layout betekent dat opties zoals wel/niet weergeven van GUS of WUS en zoom niveau tussen de fasenlogs worden gesynchroniseerd.
 

@@ -5,7 +5,7 @@ date: 2020-04-03
 
 YAVV is ontworpen om eenvoudig en intuïtief te zijn in het gebruik. Het ontwerp van de applicatie volgt veel gebruikte patronen in software, en is gericht op dagelijks gebruik door verkeerskundigen. Hieronder volgt een globale omschrijving van de opbouw en werking van de UI (user interface ofwel gebruikersinterface).
 
-Tip: lees voor een goed begrip van de opbouw van YAVV ook over [het verschil tussen werkbladen en documenten](https://www.codingconnected.eu/yavvwiki/algemeen/documentenbeheer-in-yavv/) zoals binnen YAVV wordt gehanteerd.
+Tip: lees voor een goed begrip van de opbouw van YAVV ook over [het verschil tussen werkbladen en documenten](../documentenbeheer-in-yavv/index.md) zoals binnen YAVV wordt gehanteerd.
 
 ## Opbouw gebruikersinterface
 

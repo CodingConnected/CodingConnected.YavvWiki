@@ -7,7 +7,7 @@ In YAVC client is het mogelijk analyse data in bulk te exporteren. Zo kan over e
 
 Om gebruik te maken van de bulk export optie: open het werkblad via menu Tools > Bulk Export:
 
-[![](images/image-1-1024x908.png)](https://www.codingconnected.eu/wp-content/uploads/2024/02/image-1.png)
+[![](images/image-1-1024x908.png)]
 
 Bij (1) kunnen nu één of meer kruispunten worden geselecteerd. Vervolgens wordt bij (2) ingesteld op welke wijze precies welke data moet worden geëxporteerd:
 

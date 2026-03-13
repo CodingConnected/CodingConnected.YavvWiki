@@ -6,13 +6,13 @@ date: 2023-03-20
 De artikelen omtrent de evaluatie functionaliteit omvatten een aantal artikelen:
 
 - deze introductie
-- hoe en wat rond de [configuratie](https://www.codingconnected.eu/yavvwiki/evaluatie/evaluiatie-configuratie/)
-- uitleg omtrent de beschikbare [indicatoren](https://www.codingconnected.eu/yavvwiki/evaluatie/evaluatie-indicatoren/)
-- werken met de [visualisatie van de resultaten](https://www.codingconnected.eu/yavvwiki/evaluatie/evaluatie-bekijken-resultaten/)
+- hoe en wat rond de [configuratie](../evaluatie-configuratie/index.md)
+- uitleg omtrent de beschikbare [indicatoren](../evaluatie-indicatoren/index.md)
+- werken met de [visualisatie van de resultaten](../evaluatie-bekijken-resultaten/index.md)
 
 ## Introductie
 
-VLOG centrale YAVC en VLOG viewer YAVV bieden de mogelijkheid voor het uitvoeren van kruispunt evaluaties. Binnen YAVC betreft het hier een aanvullende module, voor YAVV geldt dat dit onderdeel is van [de big-data addon](https://www.codingconnected.eu/yavvwiki/big-data/yavv-big-data-introductie/).
+VLOG centrale YAVC en VLOG viewer YAVV bieden de mogelijkheid voor het uitvoeren van kruispunt evaluaties. Binnen YAVC betreft het hier een aanvullende module, voor YAVV geldt dat dit onderdeel is van [de big-data addon](../../yavv/yavv-big-data-introductie/index.md).
 
 Bij een evaluatie worden op basis van verkeerskundige indicatoren rapportcijfers berekend; hiermee kan een beeld worden verkregen van de prestaties van een kruispunt. Met de evaluatie tooling kan op eenvoudige en efficiente wijze inzicht worden verkregen in:
 
@@ -42,7 +42,7 @@ De evaluatie tooling is in de basis relatief eenvoudig:
 
 Hieronder een voorbeeld van de wijze waarop de vertaling van verkeerskundige data naar cijfers kan worden geconfigureerd (het cijfer wordt gevonden door de gemiddelde wachttijd eerstwachtende op de y-as op te zoeken; het bijbehorende punt op de x-as is dan het rapportcijfer):
 
-[![](images/image-1-1024x798.png)](https://www.codingconnected.eu/wp-content/uploads/2023/03/image-1.png)
+[![](images/image-1-1024x798.png)]
 
 Deze eenvoudige basis vormt een stevig fundament voor de tooling; in de praktijk geldt daarbij dat de configuratie om te komen tot correcte cijfers aandacht vergt, en al snel een zeer grote dataset ontstaat. Aan deze beide punten is bij de implementatie van de evaluatie tooling binen YAVV/YAVC veel aandacht besteed:
 
@@ -51,4 +51,4 @@ Deze eenvoudige basis vormt een stevig fundament voor de tooling; in de praktijk
 
 Hieronder een voorbeeld van de visualisatie (YAVC client versie 3.4.0), waarin de data voor een aantal indicatoren per week wordt weergegeven:
 
-[![](images/image-1024x798.png)](https://www.codingconnected.eu/wp-content/uploads/2023/03/image.png)
+[![](images/image-1024x798.png)]

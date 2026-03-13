@@ -14,7 +14,7 @@ Binnen YAVC is een publieke API beschikbaar, waarmee meta data rond kruispunten 
     - Lijst met beschikbare analyses (incl. id's, die nodig zijn voor opvragen van de eigenlijke data)
     - Analyse data, voor een bepaald type analyse, een gewenste periode in de tijd, voor een opgegeven interval (bv. 15 min.)
 
-Zie voor details over de publieke API [dit artikel](https://www.codingconnected.eu/yavvwiki/yavc/yavc-public-api/).
+Zie voor details over de publieke API [dit artikel](../yavc-public-api/index.md).
 
 ## Beveiliging: OAuth2 en TLS
 
@@ -37,7 +37,7 @@ Hieronder volgt een voorbeeld van een configuratie in AzureAD ter referentie:
 - Ga naar "Active Directory"
 - Ga naar "App registrations"
 
-[![](images/image.png)](https://www.codingconnected.eu/wp-content/uploads/2022/12/image.png)
+[![](images/image.png)]
 
 - Hier moet de publieke API worden toegevoegd: klik op "New registration" en geef de API een herkenbare naam. Stel de API registration als volgt in:
     
@@ -67,4 +67,4 @@ Hieronder volgt een voorbeeld van een configuratie in AzureAD ter referentie:
 
 De uiteindelijke configuratie voor een externe applicatie is bijvoorbeeld als volgt (screenshot uit [de test app insomnia](https://insomnia.rest/)):
 
-[![](images/image-2-1024x697.png)](https://www.codingconnected.eu/wp-content/uploads/2022/12/image-2.png)
+[![](images/image-2-1024x697.png)]

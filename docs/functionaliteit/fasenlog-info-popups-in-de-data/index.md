@@ -16,7 +16,7 @@ Ter info vooraf, een kort overzicht van gebruikte termen:
 
 Plaatsen van popups gaat middels de toolbar "Item selectie":
 
-[![](images/image-19.png)](https://www.codingconnected.eu/wp-content/uploads/2021/01/image-19.png)
+[![](images/image-19.png)]
 
 De toolbar bestaat uit vier knoppen:
 
@@ -44,4 +44,4 @@ De toolbar bestaat uit vier knoppen:
 - Plaats tijd/snelheid meting bij twee items
     - Deze optie is uitsluitend beschikbaar indien twee statussen zijn geselecteerd. Dit kan middels Control+klik
     - De popup toont informatie over de relatie tussen de twee statussen. In geval van twee detectoren op dezelfde rijbaan wordt ook een inschatting van de gereden snelheid weergegeven.
-        - _Let op!_ De configuratie qua ligging van de lussen moet goed staan, wil dit een zinvolle meting zijn. Zelfs dan: de snelheid is **altijd** een inschatting. VLOG heeft een resolutie van 0,1 seconden, en de ligging van lussen op straat wijkt vaak enigszins af. Zie ook de omschrijving [hier](https://www.codingconnected.eu/yavvwiki/analyse/analyse-snelheidsprofiel/).
+        - _Let op!_ De configuratie qua ligging van de lussen moet goed staan, wil dit een zinvolle meting zijn. Zelfs dan: de snelheid is **altijd** een inschatting. VLOG heeft een resolutie van 0,1 seconden, en de ligging van lussen op straat wijkt vaak enigszins af. Zie ook de omschrijving [hier](../../analyse/analyse-snelheidsprofiel/index.md).

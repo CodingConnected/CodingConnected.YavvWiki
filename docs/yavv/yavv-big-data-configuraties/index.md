@@ -30,7 +30,7 @@ Wanneer de in de data aanwezige configuraties zijn bepaald moeten deze juist wor
 
 ### Automatisch zoeken naar instellingen
 
-Net als wanneer met YAVV bestanden worden geopend ([zie hier](https://www.codingconnected.eu/yavvwiki/uncategorized/omgang-met-configuraties-in-yavc/)), zoekt ook YAVV/bd automatisch naar de best passende configuratie. Hierbij geldt:
+Net als wanneer met YAVV bestanden worden geopend ([zie hier](../../yavc/omgang-met-configuraties-in-yavc/index.md)), zoekt ook YAVV/bd automatisch naar de best passende configuratie. Hierbij geldt:
 
 - Bij VLOG3 data wordt de configuratie uit de data zelf default ingeladen.
 - Vervolgens wordt gezocht naar .yavv, .cfg, .vlt en .vlc bestanden in de geopende map - inclusief onderliggende mappen! Tevens wordt gezocht naar degelijke bestanden in de default configuratie map - indien ingesteld. Het resultaat is een complete lijst met beschikbare configuratie instellingen.
@@ -46,11 +46,11 @@ Net als wanneer met YAVV bestanden worden geopend ([zie hier](https://www.coding
 
 Configuraties kunnen worden bewerkt door in de lijst met configuratie op het tandwiel van de betreffende configuratie te klikken.
 
-[![](images/image-6.png)](https://www.codingconnected.eu/wp-content/uploads/2021/01/image-6.png)
+[![](images/image-6.png)]
 
 Hiermee wordt een nieuw werkblad geopend, waarin de configuratie kan worden bewerkt. Het is middels de knoppen in de toolbar ook mogelijk een configuratie bestand te gebruiken om instellingen in te laden. Tevens is het mogelijk de (al dan niet aangepaste) configuratie instellingen op schijf op te slaan.
 
-[![](images/image-7.png)](https://www.codingconnected.eu/wp-content/uploads/2021/01/image-7.png)
+[![](images/image-7.png)]
 
 ### Toepassingsbereik van configuraties
 

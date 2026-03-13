@@ -21,7 +21,7 @@ Het is raadzaam enige voorzichtigheid te betrachten bij gebruik van de publieke 
 
 ## Authenticatie
 
-De API kan pas worden bevraagd nadat is geauthentiseerd: voor het bevragen van de API is namelijk een Json Web Token (JWT) ofwel bearer token nodig die met elke API call moet worden meegestuurd. Het gehanteerde protocol heet OAuth 2.0, met gebruik van de client credentials flow. Zie [dit artikel](https://www.codingconnected.eu/yavvwiki/yavc/yavc-public-api-authentication/) voor details.
+De API kan pas worden bevraagd nadat is geauthentiseerd: voor het bevragen van de API is namelijk een Json Web Token (JWT) ofwel bearer token nodig die met elke API call moet worden meegestuurd. Het gehanteerde protocol heet OAuth 2.0, met gebruik van de client credentials flow. Zie [dit artikel](../yavc-public-api-authentication/index.md) voor details.
 
 ## Gebruik van de API
 

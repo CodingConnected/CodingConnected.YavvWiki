@@ -14,7 +14,7 @@ Voor de applicatie YAVV zijn diverse zaken instelbaar. Dit betreft:
 
 De instellingen zijn beschikbaar via het menu Help>Instellingen YAVV of via de sneltoets F9:
 
-[![](images/image.png)](https://www.codingconnected.eu/wp-content/uploads/2022/05/image.png)
+[![](images/image.png)]
 
 Instellingen worden automatisch opgeslagen bij het sluiten van de applicatie.
 
@@ -52,7 +52,7 @@ Hier is instelbaar welke marges worden genomen bij het bepalen van de (geschatte
 
 ## Analyse
 
-Momenteel is hier uitsluitend instelbaar of de hoogste waarden moeten worden gemarkeerd voor analyse in tabelvorm. Dit is ook actueel instelbaar voor een geopend analyse werkblad via de geavanceerde instellingen (zie hier: [Analyse weergave](https://www.codingconnected.eu/yavvwiki/analyse/analyse-weergave/)).
+Momenteel is hier uitsluitend instelbaar of de hoogste waarden moeten worden gemarkeerd voor analyse in tabelvorm. Dit is ook actueel instelbaar voor een geopend analyse werkblad via de geavanceerde instellingen (zie hier: [Analyse weergave](../../analyse/analyse-weergave/index.md)).
 
 ## DSI werkblad
 

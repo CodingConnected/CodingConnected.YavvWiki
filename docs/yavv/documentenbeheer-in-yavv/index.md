@@ -5,7 +5,7 @@ date: 2021-01-08
 
 ## Documentenbeheer
 
-De applicatie YAVV kent een multi-venster omgeving (zie ook [het artikel over de UI van YAVV](https://www.codingconnected.eu/yavvwiki/algemeen/werkbladen-en-gebruikersinterface-van-yavv/)), waarin het mogelijk is gelijktijdig verschillende bestanden geopend te hebben. Om goed te kunnen werken met deze omgeving is het nuttig het verschil te kennen dat binnen YAVV bestaat tussen een “document” en een “werkblad”.
+De applicatie YAVV kent een multi-venster omgeving (zie ook [het artikel over de UI van YAVV](../werkbladen-en-gebruikersinterface-van-yavv/index.md)), waarin het mogelijk is gelijktijdig verschillende bestanden geopend te hebben. Om goed te kunnen werken met deze omgeving is het nuttig het verschil te kennen dat binnen YAVV bestaat tussen een “document” en een “werkblad”.
 
 - Een **document** is in YAVV een geopende databron. Dit kan zijn één bestand, een serie opeenvolgende bestanden, of – in geval van de big data addon – een map waarin vlog data aanwezig is. De databron wordt door YAVV gebruikt voor het opbouwen van de gevraagde weergave, bijvoorbeeld een fasenlog, een analyse venster of de kaart met DSI berichten. Documenten zijn dus niet als zodanig zichtbaar binnen YAVV, want het zijn slechts bronnen van data. De enige plek waar te zien is welke documenten open staan, is het Documenten Beheer toolvenster. Verder goed om te weten:
     - Afsluiten van een document zorgt voor afsluiten van álle gerelateerde tabbladen.

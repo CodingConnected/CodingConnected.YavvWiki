@@ -3,7 +3,7 @@ title: "YAVV big data: indexatie"
 date: 2021-01-14
 ---
 
-Dit artikel gaat in op de praktijk van het indexeren van data met de big-data addon voor YAVV. Voor een introductie en enige achtergrond informatie over deze addon: [zie hier](https://www.codingconnected.eu/yavvwiki/big-data/yavv-big-data-introductie/).
+Dit artikel gaat in op de praktijk van het indexeren van data met de big-data addon voor YAVV. Voor een introductie en enige achtergrond informatie over deze addon: [zie hier](../yavv-big-data-introductie/index.md).
 
 ## Vooraf: eisen aan de brondata
 
@@ -34,7 +34,7 @@ Wanneer de indexatie klaar is verschijnt een weergave van de gevonden data. Dit 
 
 Het is mogelijk de indexatie op te slaan, zodat het een volgende keer minder lang duurt om de map te openen in YAVV. Zeker bij zeer grotere datasets kan dit veel tijd schelen. Klik hiertoe op de knop op de toolbar “Opslaan indexatie”, kies de locatie en geef de bestandsnaam op.
 
-[![](images/image.png)](https://www.codingconnected.eu/wp-content/uploads/2021/01/image.png)
+[![](images/image.png)]
 
 Om een opgeslagen indexatie te openen is er eveneens een knop op de toolbar beschikbaar (![](images/Pasted-1.png)). Wanneer een opgeslagen indexatie wordt geopend.
 
@@ -68,7 +68,7 @@ _Tip_: lijkt data te ontbreken voor een kruispunt? Controleer altijd eerst of de
 
 Van de geselecteerde kruispunt wordt naast de combobox onder tabblad "Meta info" onder het kopje "Data overzicht" weergegeven tussen welke minimale en maximale tijd/datum er data is gevonden, en hoeveel bestanden zijn geïndexeerd. Tevens worden de gevonden configuraties weergegeven.
 
-[![](images/image-5.png)](https://www.codingconnected.eu/wp-content/uploads/2021/01/image-5.png)
+[![](images/image-5.png)]
 
 ### Beschikbare data
 
@@ -84,7 +84,7 @@ De knoppen bij 3 zijn van belang voor het maken van een selectie van dagen t.b.v
 
 Selectie van een dag in de lijst of in de kalender (middels een muisklik, de dag kleurt dan blauw gearceerd zo lang de focus daar is, anders grijs) zorgt ervoor dat naast de kalender onder de kop “Geselecteerde dag” informatie omtrent die dag wordt weergegeven.
 
-[![](images/image-4.png)](https://www.codingconnected.eu/wp-content/uploads/2021/01/image-4.png)
+[![](images/image-4.png)]
 
 Tevens wordt rechts in beeld een preview geladen van de fasenlog voor die dag. De preview werkt net als de reguliere fasenlog, maar veel zaken zijn momenteel niet instelbaar. In de toekomst is de bedoeling bv. toedelen van detectoren aan fasen, zoom, en keuze voor GUW en/of WUS ook hier toegankelijk te maken.
 
@@ -92,9 +92,9 @@ Tevens wordt rechts in beeld een preview geladen van de fasenlog voor die dag. D
 
 Het is mogelijk voor de geselecteerde dag extra werkbladen te openen middels de knoppen “Fasenlog” en “Analyse”.
 
-**Let op**: klikken op deze knoppen heeft als effect dat de big data addon aan de globale applicatie YAVV de instructie geeft om de aan die dag gerelateerde lijst met bestanden te openen. Dat openen verloopt vervolgens _geheel los_ van het openstaande indexatie document. Er wordt dus een nieuw en losstaand document geopend, wat verder geen verband houdt met de indexatie. Zie voor een goed begrip van het concept "Document" binnen YAVV, alsook de relatie tussen "Documenten" en "Werkbladen", [dit artikel](https://www.codingconnected.eu/yavvwiki/algemeen/documentenbeheer-in-yavv/).
+**Let op**: klikken op deze knoppen heeft als effect dat de big data addon aan de globale applicatie YAVV de instructie geeft om de aan die dag gerelateerde lijst met bestanden te openen. Dat openen verloopt vervolgens _geheel los_ van het openstaande indexatie document. Er wordt dus een nieuw en losstaand document geopend, wat verder geen verband houdt met de indexatie. Zie voor een goed begrip van het concept "Document" binnen YAVV, alsook de relatie tussen "Documenten" en "Werkbladen", [dit artikel](../documentenbeheer-in-yavv/index.md).
 
-Het feit dat er geen relatie bestaat tussen het nieuw geopende document en het map-document is met name relevant voor de configuraties: de big data addon zoekt naar configuraties in de geïndexeerde map en alle onderliggende mappen, alsook in de default map voor configuraties indien die is ingesteld (zie hier TODO). Bij openen van bestanden uit een onderliggende map door YAVV zelf gebeurt dit echter niet, dan geldt het [de reguliere manier waarop naar configuraties wordt gezocht](https://www.codingconnected.eu/yavvwiki/uncategorized/omgang-met-configuraties-in-yavc/).
+Het feit dat er geen relatie bestaat tussen het nieuw geopende document en het map-document is met name relevant voor de configuraties: de big data addon zoekt naar configuraties in de geïndexeerde map en alle onderliggende mappen, alsook in de default map voor configuraties indien die is ingesteld (zie hier TODO). Bij openen van bestanden uit een onderliggende map door YAVV zelf gebeurt dit echter niet, dan geldt het [de reguliere manier waarop naar configuraties wordt gezocht](../../yavc/omgang-met-configuraties-in-yavc/index.md).
 
 In de praktijk betekent dit:
 

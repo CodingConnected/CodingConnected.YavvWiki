@@ -31,7 +31,7 @@ Bij de omgang met retentie van data binnen YAVC zijn er een aantal mogelijke wer
 
 De mogelijke instellingen voor data retentie binnen YAVC client worden hieronder weergegeven:
 
-[![](images/2025-05-13-yavc_retention_config-999x1024.png)](https://www.codingconnected.eu/wp-content/uploads/2025/05/2025-05-13-yavc_retention_config-scaled.png)
+[![](images/2025-05-13-yavc_retention_config-999x1024.png)]
 
 De volgende instellingen zijn hier beschikbaar (waarmee de diverse mogelijkheden zoals hierboven toegelicht kunnen worden ingeregeld):
 

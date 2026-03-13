@@ -7,7 +7,7 @@ YAVC-client biedt de mogelijkheid data te exporteren voor het veelgebruike macro
 
 De uiteindelijke export kan na configuratie op afroep worden uitgevoerd en ziet er bijvoorbeeld als volgt uit:
 
-[![](images/image-1024x560.png)](https://www.codingconnected.eu/wp-content/uploads/2022/04/image.png)
+[![](images/image-1024x560.png)]
 
 Het exporteren van data voor het verkeersmodel verloopt via een aantal stappen:
 
@@ -22,7 +22,7 @@ Hieronder worden deze stappen nader uitgewerkt.
 
 Open eerst het systeem instellingen werkblad (tandwiel knop op de toolbar of via menu Instellingen > Systeem Instellingen). Dit werkblad opent met een overzicht van alle kruispunten, en van de geselecteerde kruising de detail instellingen. Per kruising moet nu in het tabblad “VLOG Configuraties” worden ingesteld welke kruispuntarmen er zijn, en hoe de signaalgroepen verdeeld zijn over deze armen.
 
-[![](images/image-1-1024x612.png)](https://www.codingconnected.eu/wp-content/uploads/2022/04/image-1.png)
+[![](images/image-1-1024x612.png)]
 
 De handigste werkwijze is:
 
@@ -40,7 +40,7 @@ De handigste werkwijze is:
 
 Open het werkblad voor de verkeersmodel export via het menu Tools > Export verkeersmodel. Het werkblad opent met een lijst met kruispunten en de instellingen voor de export. In de lijst kunnen een of meer kruispunten worden gekozen die meegenomen moeten worden in de export van data.
 
-[![](images/image-2-1024x778.png)](https://www.codingconnected.eu/wp-content/uploads/2022/04/image-2.png)
+[![](images/image-2-1024x778.png)]
 
 Qua instellingen is het volgende beschikbaar (de cijfers tussen blokhaken \[\] refereren naar de afbeelding hierboven):
 
@@ -76,6 +76,6 @@ Klikken op een regel in de tabel zorgt voor weergave van enige details van de bi
 
 Opslaan van de opgehaalde data gaat via de knoppen op de toolbar:
 
-[![](images/image-3.png)](https://www.codingconnected.eu/wp-content/uploads/2022/04/image-3.png)
+[![](images/image-3.png)]
 
 De data kan worden opgeslagen als .xlsx (Excel), .csv (tekstbestand met daarin met ; gesepareerde data velden) of op het klembord worden geplaatst als .csv data. De opties voor export naar .pdf of .png (afbeelding) zijn niet beschikbaar omdat dit hier geen meerwaarde biedt.

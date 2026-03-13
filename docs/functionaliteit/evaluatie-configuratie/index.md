@@ -3,7 +3,7 @@ title: "Evaluatie: configuratie"
 date: 2023-03-20
 ---
 
-Dit artikel omschrijft hoe de evaluatie tooling van YAVV/YAVC op een verkeerskundig zinvolle geconfigureerd kan worden. Voor algemene informatie omtrent de evaluatie tooling van YAVV/YAVC, zie [hier](https://www.codingconnected.eu/yavvwiki/evaluatie/yavv-yavc-evaluatie-introductie/).
+Dit artikel omschrijft hoe de evaluatie tooling van YAVV/YAVC op een verkeerskundig zinvolle geconfigureerd kan worden. Voor algemene informatie omtrent de evaluatie tooling van YAVV/YAVC, zie [hier](../yavv-yavc-evaluatie-introductie/index.md).
 
 ## Introductie
 
@@ -14,7 +14,7 @@ Het functioneren van de evaluatie module van YAVV/YAVC - en daarmee ook de bruik
 Om goed te kunnen plaatsen precies wat en om precies welke reden moet worden geconfigureerd, kijken we eerste naar de werking van de evaluatie module:
 
 - Uitgangspunt is de beschikbaarheid van analyse data
-    - **Merk op!** Met andere woorden: een correcte [configuratie van de kruising](https://www.codingconnected.eu/yavvwiki/yavc/kruispunten-configureren-in-yavc/) is een voorwaarde voor het verkrijgen van zinvolle evaluatie uitkomsten.
+    - **Merk op!** Met andere woorden: een correcte [configuratie van de kruising](../../yavc/kruispunten-configureren-in-yavc/index.md) is een voorwaarde voor het verkrijgen van zinvolle evaluatie uitkomsten.
     - Voor YAVC geldt: de evaluatie data wordt continu doorgerekend; hiervoor is wel een gevalideerde analyse configuratie nodig
     - Voor YAVV (bigdata) geldt: er moet vóór de evaluatie optie beschikbaar komt een trend analyse worden uitgevoerd op een dataset
 - De VLOG data gaat dus door een soort pijplijn:
@@ -60,7 +60,7 @@ Binnen de evaluatie tooling wordt hierin voorzien middels signaalgroep categorie
 
 Per signaalgroep categorie kan worden ingesteld welke verkeerskundige indicatoren meegenomen moeten worden in de evaluatie. Per indicator is vervolgens instelbaar hoe de gemeten analysewaarde moet worden vertaald naar een rapportcijfer. Dit gebeurt middels het bepalen van een curve; de meetwaarde wordt op deze curve geplot en het bijbehorende cijfer op die manier gevonden.
 
-Voor meer informatie over de beschikbare indicatoren: zie [hier](https://www.codingconnected.eu/yavvwiki/evaluatie/evaluatie-indicatoren/).
+Voor meer informatie over de beschikbare indicatoren: zie [hier](../evaluatie-indicatoren/index.md).
 
 ### Tip: keep it simple!
 
@@ -105,7 +105,7 @@ De kern van de evaluatie tooling vormt de vertaling van verkeerskundige data naa
 
 Hieronder een voorbeeld van hoe dit eruit ziet in YAVC (in YAVV is dit verder gelijk):
 
-[![](images/image-7-1024x562.png)](https://www.codingconnected.eu/wp-content/uploads/2023/03/image-7.png)
+[![](images/image-7-1024x562.png)]
 
 Door te klikken op elementen in de boomstructuur komen de beschikbare instellingen voor dat element naar voren:
 
@@ -161,8 +161,8 @@ De default evaluatieconfiguratie kan worden ingesteld via menu Help > Instelling
 
 Om binnen YAVV vervolgens gebruik te maken van de evaluatie tooling:
 
-- Indexeer via "Openen map" een map met data (zie ook [hier](https://www.codingconnected.eu/yavvwiki/big-data/yavv-big-data-trend-analyse/))
-- Voer vervolgens na selectie van een aantal dagen via tabblad "Trend analyse" een trendanalyse uit (zie ook [hier](https://www.codingconnected.eu/yavvwiki/big-data/yavv-big-data-trend-analyse/))
+- Indexeer via "Openen map" een map met data (zie ook [hier](../../yavv/yavv-big-data-trend-analyse/index.md))
+- Voer vervolgens na selectie van een aantal dagen via tabblad "Trend analyse" een trendanalyse uit (zie ook [hier](../../yavv/yavv-big-data-trend-analyse/index.md))
 - Nu komt de knop "Evaluatie" in de Toolbar beschikbaar. Deze knop opent een nieuw werkblad.
 - In het tabblad "Configuratie" van het evaluatie werkblad kan de evaluatieconfiguratie voor de actuele evaluatie worden nabewerkt:  
     ![](images/image-3.png)  

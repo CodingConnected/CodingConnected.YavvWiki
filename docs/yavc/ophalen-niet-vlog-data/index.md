@@ -12,7 +12,7 @@ Om gebruik te maken van deze mogelijkheid moet het volgende worden geconfigureer
 
 Per VRI moet vervolgens worden ingesteld welke data moet worden opgehaald, en hoe deze moet worden opgeslagen:
 
-[![](images/image-1024x840.png)](https://www.codingconnected.eu/wp-content/uploads/2023/01/image.png)
+[![](images/image-1024x840.png)]
 
 Merk op: sinds versie 3.5 van de client geldt: er is een extra optie "Periodiek opnieuw verzamelen"; deze komt beschikbaar indien "Timestamp voor bestandsnaam zetten" is aangevinkt. "Check timestamp vorige file" komt pas beschikbaar indien periodiek opnieuw verzamelen is ingeschakeld.
 

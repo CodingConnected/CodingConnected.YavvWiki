@@ -46,13 +46,13 @@ Heeft u toegang tot meerdere installaties van YAVC, bijvoorbeeld als adviseur va
 
 De client instellingen worden in tegenstelling tot de lokale instellingen opgeslagen in de database van YAVC, bij het gebruikersprofiel. Zo zijn de instellingen gelijk ongeacht de locatie van waaraf YAVC-client wordt gebruikt. Deze instellingen zijn toegankelijk via het menu Beeld > Client instellingen (of sneltoets F6):
 
-[![](images/image-13.png)](https://www.codingconnected.eu/wp-content/uploads/2021/11/image-13.png)
+[![](images/image-13.png)]
 
 Er verschijnt nu een werkblad met een aantal tabbladen:
 
 - Profiel: stel hier uw naam en email adres in, en of u al dan niet alerts wilt ontvangen. **Klik daarna op "Wijzigingen opslaan"!** Dit tabblad wordt hieronder nog nader toegelicht
 
-- Fasenlog: hier kunnen diverse defaults voor de weergave van de fasenlog worden geregeld. Zie [dit artikel](https://www.codingconnected.eu/yavvwiki/algemeen/yavv-instellingen/) voor een meer gedetailleerde uitleg over de instellingen; dat artikel betreft YAVV, maar de instellingen van de fasenlog zijn 1 op 1 gelijk.
+- Fasenlog: hier kunnen diverse defaults voor de weergave van de fasenlog worden geregeld. Zie [dit artikel](../../yavv/yavv-instellingen/index.md) voor een meer gedetailleerde uitleg over de instellingen; dat artikel betreft YAVV, maar de instellingen van de fasenlog zijn 1 op 1 gelijk.
 
 - Kaart: instellingen omtrent het kaartbeeld; dit geldt momenteel zowel voor de overzichtskaart als voor de kaart voor de weergave van DSI data
 
@@ -80,12 +80,12 @@ De interface voor deze instellingen wordt hierboven weergegeven. De volgende opt
     5. Minimaal aantal simultane data verzameling issues voordat een alerts wordt verzonden; hiermee kan worden gezorgd dat pas wanneer er tegelijk een X aantal meldingen omtrent dataverzameling optreden, een alert wordt verzonden (zo kan bv. een netwerk fout worden herkend)
 
 7. Alert instellingen per type: hier kann worden ingesteld welke alerts wel/niet moeten worden verzonden, en vanaf welk prioriteitsniveau. De typen zijn:
-    1. Data verzameling: dit is wellicht het belangrijkst: indien de verzameling stokt wordt een issue aangemaakt door YAVC. Hoe langer dit aanhoudt, hoe hoger de prioriteit wordt. Zie ook [hier](https://www.codingconnected.eu/yavvwiki/uncategorized/yavc-bewaking-dataverzameling/).
+    1. Data verzameling: dit is wellicht het belangrijkst: indien de verzameling stokt wordt een issue aangemaakt door YAVC. Hoe langer dit aanhoudt, hoe hoger de prioriteit wordt. Zie ook [hier](../yavc-bewaking-dataverzameling/index.md).
     
     3. Data integriteit: dit type issue wordt aangemaakt wanneer er fouten in de data worden gevonden; denk hierbij aan verkeerde volgorde van berichten, CRC fouten, etc.
     
     5. Data verwerking: indien het verwerken van data stokt, er dus geen analyse data meer wordt aangemaakt, wordt dit type issue aangemaakt
     
-    7. Configuratie: dit wordt aangemaakt wanneer YAVC een nieuwe configuratie heeft herkend in de data (zie verder [hier](https://www.codingconnected.eu/yavvwiki/yavc/omgang-met-configuraties-in-yavc/))
+    7. Configuratie: dit wordt aangemaakt wanneer YAVC een nieuwe configuratie heeft herkend in de data (zie verder [hier](../omgang-met-configuraties-in-yavc/index.md))
     
     9. Archivering: dit wordt aangemaakt wanneer de archivering van data mislukt (bv. omdat het archief vol is)

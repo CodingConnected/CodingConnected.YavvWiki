@@ -7,9 +7,9 @@ De weergave van analyse data gebeurt binnen YAVV en YAVC op een generieke manier
 
 - het kan gaan om analyse data op basis van één bestand of reeks bestanden, zoals gebruikelijk in YAVV; dit is beschikbaar via de knop op de toolbar:
 
-[![](images/image-5.png)](https://www.codingconnected.eu/wp-content/uploads/2021/05/image-5.png)
+[![](images/image-5.png)]
 
-- wordt gewerkt met [YAVV big-data](https://www.codingconnected.eu/yavvwiki/big-data/yavv-big-data-trend-analyse/), dan kan het gaan om gemiddelde data over meerdere dagen, of over data van één specifieke dag uit een reeks
+- wordt gewerkt met [YAVV big-data](../../yavv/yavv-big-data-trend-analyse/index.md), dan kan het gaan om gemiddelde data over meerdere dagen, of over data van één specifieke dag uit een reeks
 - in YAVC-client geldt ook dat het kan gaan om een weergave van data van één specifieke dag, of een gemiddelde over meerdere dagen
 
 Ongeacht de bron: de weergave van de resultaten is steeds hetzelfde opgebouwd. Dit artikel omschrijft die opbouw en geeft een overzicht van de mogelijkheden qua visualisatie (en export) van analyse data.
@@ -20,7 +20,7 @@ Een opmerking vooraf: zowel in YAVV als in YAVC wordt bij wisselen van analyse e
 
 Hieronder wordt de grafische interface voor weergave van analyse data weergegeven:
 
-[![](images/image-6-1024x963.png)](https://www.codingconnected.eu/wp-content/uploads/2021/05/image-6.png)
+[![](images/image-6-1024x963.png)]
 
 De volgende onderdelen zijn hier te zien:
 
@@ -77,7 +77,7 @@ Deze lijst is vooral handig om snel hoge waarden te filteren uit de data (zie hi
 
 Middels de tandwiel knop (4) is het mogelijk een aantal aanvullende zaken in te stellen rond de visualisatie van de analyse data:
 
-[![](images/image-7.png)](https://www.codingconnected.eu/wp-content/uploads/2021/05/image-7.png)
+[![](images/image-7.png)]
 
 De opties hier zijn als volgt:
 
@@ -92,7 +92,7 @@ De opties hier zijn als volgt:
 
 In de toolbar bovenaan het applicatie venster bevinden zich een aantal knoppen waarmee het exporteren van analyse data mogelijk is:
 
-[![](images/image-8.png)](https://www.codingconnected.eu/wp-content/uploads/2021/05/image-8.png)
+[![](images/image-8.png)]
 
 Van links naar rechts zijn hier de mogelijkheden:
 
@@ -101,4 +101,4 @@ Van links naar rechts zijn hier de mogelijkheden:
 - Export van de grafiek naar een plaatje (.png)
 - Export van de grafiek naar het klembord
 
-De bigdata addon heeft hier nog een extra optie: exporteren van meerdere dagen tegelijk naar één of meer .csv bestanden. Zie hierover verder [de documentatie rond bigdata](https://www.codingconnected.eu/yavvwiki/big-data/yavv-big-data-trend-analyse/).
+De bigdata addon heeft hier nog een extra optie: exporteren van meerdere dagen tegelijk naar één of meer .csv bestanden. Zie hierover verder [de documentatie rond bigdata](../../yavv/yavv-big-data-trend-analyse/index.md).

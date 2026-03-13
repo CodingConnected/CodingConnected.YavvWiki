@@ -9,24 +9,24 @@ _Notitie:_ dit artikel betreft de topology addon vanaf YAVV 1.9. Tot 1.9 was er 
 
 ## Installatie
 
-Bij gebruik van de [setup](https://www.codingconnected.eu/yavvwiki/faq/zoek-de-verschillen-setup-vs-portable/) is de topology addon een aparte optie tijdens de installatie van YAVV. Deze staat default uit en moet worden aangevinkt om de addon mee te installeren. Indien u YAVV reeds heeft geïnstalleerd zijn er twee opties:
+Bij gebruik van de [setup](../../faq/zoek-de-verschillen-setup-vs-portable/index.md) is de topology addon een aparte optie tijdens de installatie van YAVV. Deze staat default uit en moet worden aangevinkt om de addon mee te installeren. Indien u YAVV reeds heeft geïnstalleerd zijn er twee opties:
 
 - De setup nogmaals starten en de installatie aanpassen
 - YAVV verwijderen (deïnstallatie via "Toevoegen en verwijderen programma's") en vervolgens opnieuw installeren met de topology addon aangevinkt.
 
 Is de addon eenmaal geïnstalleerd, dan zal bij een update van de applicatie de optie automatisch opnieuw worden aangevinkt.
 
-Bij gebruik van de [portable versie](https://www.codingconnected.eu/yavvwiki/faq/zoek-de-verschillen-setup-vs-portable/) zit de addon er al bij en volstaat het hebben van de juiste licentie.
+Bij gebruik van de [portable versie](../../faq/zoek-de-verschillen-setup-vs-portable/index.md) zit de addon er al bij en volstaat het hebben van de juiste licentie.
 
 ### Licentie
 
-Voor het gebruik van de topologie functionaliteit binnen YAVV is een aanvullende licentie nodig. Wanneer u reeds een licentie heeft moet u deze vervangen door de licentie waarin de topology functionaliteit ook is ingeschakeld. Zie hierover [dit artikel](https://www.codingconnected.eu/yavvwiki/faq/yavv-hoe-en-wat-rond-licenties/) onder "Hernieuwen van een licentie".
+Voor het gebruik van de topologie functionaliteit binnen YAVV is een aanvullende licentie nodig. Wanneer u reeds een licentie heeft moet u deze vervangen door de licentie waarin de topology functionaliteit ook is ingeschakeld. Zie hierover [dit artikel](../yavv-hoe-en-wat-rond-licenties/index.md) onder "Hernieuwen van een licentie".
 
 ## Openen van ITF bestanden
 
 Wanneer de addon beschikbaar is, en de juiste licentie wordt gevonden, komt er in het menu File een extra optie beschikbaar: "Openen ITF bestand". Gebruik deze optie om het gewenste XML bestand met de ITF data te selecteren. Er wordt een nieuw tabblad geopend, waarin de data op kaart wordt geplot, en van de lanes en detectie tevens data in tabelvorm zichtbaar is.
 
-[![](images/image-8.png)](https://www.codingconnected.eu/wp-content/uploads/2021/06/image-8.png)
+[![](images/image-8.png)]
 
 ### Navigeren in de data
 
@@ -38,7 +38,7 @@ Klikken op een lane of detector in de tabel of op kaart zorgt voor selectie van 
 
 De weergave van lanes, connections (dat zijn de verbindingen tussen lanes die over het kruisingsvlak lopen) en detectoren is instelbaar. Klik hierop het knopje met het tandiwiel symbool rechts bovenin het venster met de kaart.
 
-[![](images/image-10.png)](https://www.codingconnected.eu/wp-content/uploads/2021/06/image-10.png)
+[![](images/image-10.png)]
 
 De instellingen spreken grotendeels voor zichzelf, hieronder nog een overzicht:
 

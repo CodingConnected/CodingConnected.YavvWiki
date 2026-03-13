@@ -3,18 +3,18 @@ title: "YAVV topology: koppelen met analyse data"
 date: 2021-06-17
 ---
 
-Met behulp van de [topology addon](https://www.codingconnected.eu/yavvwiki/topology/yavv-topology-introductie/) voor YAVV is het mogelijk analyse data te plotten op kaart. Dit gaat op hoofdlijnen als volgt:
+Met behulp van de [topology addon](../yavv-topology-introductie/index.md) voor YAVV is het mogelijk analyse data te plotten op kaart. Dit gaat op hoofdlijnen als volgt:
 
 - Open het gewenste ITF bestand
 - Open VLOG data behorende bij deze kruising, inclusief configuratie
 - Gebruik de Documenten manager om de ITF te koppelen aan de geopende VLOG data
 - Stel de gewenste analyse en gewenste visualisatie in
 
-Hieronder wordt dit in meer detail toegelicht. Voor openen van data wordt verwezen naar [dit artikel](https://www.codingconnected.eu/yavvwiki/algemeen/data-openen-met-yavv/) betreffende VLOG data en [dit artikel](https://www.codingconnected.eu/yavvwiki/topology/yavv-topology-introductie/) betreffende ITF data.
+Hieronder wordt dit in meer detail toegelicht. Voor openen van data wordt verwezen naar [dit artikel](../data-openen-met-yavv/index.md) betreffende VLOG data en [dit artikel](../yavv-topology-introductie/index.md) betreffende ITF data.
 
 ## Koppelen ITF document aan VLOG document
 
-Voor een goed begrip van de omschreven werkwijze is het nuttig [hier](https://www.codingconnected.eu/yavvwiki/algemeen/documentenbeheer-in-yavv/) na te lezen hoe YAVV omgaat met documenten en werkbladen.
+Voor een goed begrip van de omschreven werkwijze is het nuttig [hier](../documentenbeheer-in-yavv/index.md) na te lezen hoe YAVV omgaat met documenten en werkbladen.
 
 Met zowel de ITF als de VLOG data geopend kan deze worden gekoppeld:
 
@@ -24,7 +24,7 @@ Met zowel de ITF als de VLOG data geopend kan deze worden gekoppeld:
 - Vink "Synchroniseer" aan
 - Selecteer het document met geopende VLOG data
 
-[![](images/image-11.png)](https://www.codingconnected.eu/wp-content/uploads/2021/06/image-11.png)
+[![](images/image-11.png)]
 
 Default worden nu intensiteiten gekoppeld. Om andere data te visualiseren: open het analyse werkblad behorende bij de VLOG data en selecteer de gewenste analyse. Tevens kan hier bv. een selectie worden gemaakt in de tijd, wat ook door zal werken in de gekoppelde data.
 
@@ -41,4 +41,4 @@ Er zijn twee mogelijke koppelingen:
 - Dikte: de minimale gevonden waarde krijgt dikte 1, de maximale dikte 2, en waarden daartussen krijgen al naar gelang hun positie de juiste dikte
 - De combinatie van kleur en dikte is ook mogelijk
 
-Zie voor de mogelijke opties ook [dit artikel](https://www.codingconnected.eu/yavvwiki/topology/yavv-topology-introductie/). Verder is het aan te raden de beschikbare visualisatie opties gewoon uit te proberen om er bekend mee te raken en grip te krijgen op de mogelijkheden.
+Zie voor de mogelijke opties ook [dit artikel](../yavv-topology-introductie/index.md). Verder is het aan te raden de beschikbare visualisatie opties gewoon uit te proberen om er bekend mee te raken en grip te krijgen op de mogelijkheden.

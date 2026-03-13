@@ -20,7 +20,7 @@ De namen YAVV en YAVC wekken soms verwarring: wat is nu precies wat, en wat kan 
     - De data kan worden gefilterd en geanalyseerd.
     - De analyse kan ook worden gevisualiseerd en geëxporteerd.
     - YAVV is vooral geschikt voor wie op zoek is naar (verkeersregelkundige) details in de VLOG data, of wie op kleine schaal wil analyseren.
-- [YAVV/bd](https://www.codingconnected.eu/yavvwiki/big-data/yavv-big-data-introductie/) (YAVV "big data") is een addon voor YAVV. De addon voegt aanvullende functionaliteit toe aan YAVV, waardoor het mogelijk wordt te **werken met mappen met VLOG data**.
+- [YAVV/bd](../../yavv/yavv-big-data-introductie/index.md) (YAVV "big data") is een addon voor YAVV. De addon voegt aanvullende functionaliteit toe aan YAVV, waardoor het mogelijk wordt te **werken met mappen met VLOG data**.
     - Net als YAVV werkt YAVV/bd met data van schijf.
     - Met YAVV/bd kan een map worden geöpend, die dan wordt geïndexeerd. YAVV zoekt dan uit welke data er in de map zit.
     - Na indexatie is zichtbaar welke data beschikbaar is. Er is snel toegang naar de fasenlog en analyse per dag.

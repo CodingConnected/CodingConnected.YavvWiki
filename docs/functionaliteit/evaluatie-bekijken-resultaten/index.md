@@ -3,7 +3,7 @@ title: "Evaluatie: bekijken resultaten"
 date: 2023-03-20
 ---
 
-Dit artikel omschrijft de beschikbare functionaliteiten in YAVV/YAVC voor het visualiseren van evaluatie gegevens. Er wordt hierbij dus van uitgegaan dat er een evaluatie configuratie is. Zie voor algemene informatie omtrent de evaluatie tooling [hier](https://www.codingconnected.eu/yavvwiki/evaluatie/yavv-yavc-evaluatie-introductie/) en voor de configuratie [hier](https://www.codingconnected.eu/yavvwiki/evaluatie/evaluatie-configuratie/).
+Dit artikel omschrijft de beschikbare functionaliteiten in YAVV/YAVC voor het visualiseren van evaluatie gegevens. Er wordt hierbij dus van uitgegaan dat er een evaluatie configuratie is. Zie voor algemene informatie omtrent de evaluatie tooling [hier](../yavv-yavc-evaluatie-introductie/index.md) en voor de configuratie [hier](../evaluatie-configuratie/index.md).
 
 De evaluatie tooling van YAVV/YAVC berekent per dag, per periode, per signaalgroep per indicator een rapportcijfer. De wijze waarop het cijfer wordt berekend is betrekkelijk eenvoudig: op basis van een curve wordt een analyse resultaat vertaald naar een rapportcijfer. De omschreven werkwijze levert echter zeer veel cijfers op, en de vraag is dus hoe deze bekeken en geïnterepreteerd kunnen worden, zonder snel de weg te verliezen.
 
@@ -11,7 +11,7 @@ Precies deze vraag heeft centraal gestaan bij de ontwikkeling van de tooling voo
 
 De gebruikersinterface wordt hieronder weergegeven; de verschillende elementen worden verderop nader toegelicht:
 
-[![](images/yavv_evaluatie_view-667x1024.png)](https://www.codingconnected.eu/wp-content/uploads/2023/03/yavv_evaluatie_view.png)
+[![](images/yavv_evaluatie_view-667x1024.png)]
 
 De interface bestaat in de basis uit 3 elementen:
 
@@ -30,7 +30,7 @@ Voor het instellen van de weergave zijn diverse opties beschikbaar:
     - hiermee kan een subset uit de data worden gefilterd voor de weergave; bijvoorbeeld enkel meenemen van signaalgroepen van één bepaalde categorie
     - deze optie is niet beschikbaar wanneer op een categorie of signaalgroep is ingezoomd
 - Mee te nemen/weer te geven indicatoren (3):
-    - voor meer informatie over de indicatoren: zie [hier](https://www.codingconnected.eu/yavvwiki/evaluatie/evaluatie-indicatoren/)
+    - voor meer informatie over de indicatoren: zie [hier](../evaluatie-indicatoren/index.md)
     - afhankelijk van de actuele weergave wordt hiermee bepaald welke indicatoren worden meegenomen voor het bepalen van het weer te geven cijfer
     - bij meerdere indicatoren wordt het rekenkundige gemiddelde over de betreffende cijfers weergegeven
     - is ingezoomd op een signaalgroep of periode, dan wordt hiermee bepaald welke indicatoren in de matrix weergegeven moeten worden

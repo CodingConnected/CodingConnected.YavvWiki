@@ -13,7 +13,7 @@ Om een licentie te verkrijgen (na aanschaf van YAVV) moet de unieke code voor de
 - Kopieer de unieke code die verschijnt en stuur deze toe aan CodingConnected
 - U ontvangt een licentiebestand. Gebruik hetzelfde dialoogvenster om de licentie toe te passen
 - _Let op!_ Herstart YAVV na toepassen van de licentie.
-- Bij gebruik van de [portable versie](https://www.codingconnected.eu/yavvwiki/faq/zoek-de-verschillen-setup-vs-portable/) geldt:
+- Bij gebruik van de [portable versie](../../faq/zoek-de-verschillen-setup-vs-portable/index.md) geldt:
     - De applicatie start geheel niet zonder licentie
     - Er komt een message box naar voren met de optie door te klikken om een licentie in te voeren
     - In het dialoogvenster dat verschijnt staat de unieke code

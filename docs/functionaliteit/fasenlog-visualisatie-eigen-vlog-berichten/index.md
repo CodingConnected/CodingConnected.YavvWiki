@@ -94,7 +94,7 @@ Hieronder een voorbeeld van een JSON configuratie:
 
 Het resultaat van bovenstaande configuratie is in de fasenlog te zien:
 
-[![](images/image-8-1024x184.png)](https://www.codingconnected.eu/wp-content/uploads/2023/03/image-8.png)
+[![](images/image-8-1024x184.png)]
 
 Wat precies te zien is, is natuurlijk vooral afhankelijk van de data die in de VLOG wordt weggeschreven.
 

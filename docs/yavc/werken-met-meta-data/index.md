@@ -9,7 +9,7 @@ In YAVC is het mogelijk eigen meta data velden aan te maken en te vullen met dat
 
 Het configureren van meta data kan middels de client van YAVC. Ga naar Instellingen > Systeem instellingen > Meta data opties. In dit venster kunnen velden worden aangemaakt. Voor de geconfigureerde velden kan nadien per intersectie in YAVC data worden opgegeven. De gebruikers interface hiervoor is hieronder te zien:
 
-[![](images/image.png)](https://www.codingconnected.eu/wp-content/uploads/2021/03/image.png)
+[![](images/image.png)]
 
 De knoppen onderaan kunnen worden gebruikt om items toe te voegen, te verwijderen, of te ordenen. De volgorde heeft vooral invloed op de volgorde waarin de items later worden weergegeven op het invul-formulier per kruising. De volgorde waarin de data terug komt via de api is niet expliciet bepaald.
 
@@ -46,7 +46,7 @@ Een opmerking vooraf (herhaling van hierboven): _Let op!_ Na het doorvoeren van 
 
 Na het opgeven van velden kan voor de geconfigureerde velden data worden ingevoerd per kruispunt. Hieronder een voorbeeld van het invul-formulier dat de client maakt op basis van een meta configuratie:
 
-[![](images/image-2.png)](https://www.codingconnected.eu/wp-content/uploads/2021/03/image-2.png)
+[![](images/image-2.png)]
 
 De tekst voor de velden is de beschijving zoals eerder opgegeven. Per type veld verschilt wat er qua interface verschijnt: voor een String komt bv een textbox, voor een Opties veld komt een combobox met opties, voor een datumtijd, datum of jaar veld komt een datum(-tijd) veld met de optie een jaar/datum/tijd te selecteren, etc.
 

@@ -7,11 +7,11 @@ Het is in YAVC als eindgebruiker mogelijk historische data te importeren. Op dez
 
 Import van data gaat via een apart werkblad. Open dit werkblad via het menu Beeld > Bulk import:
 
-[![](images/image-8.png)](https://www.codingconnected.eu/wp-content/uploads/2021/11/image-8.png)
+[![](images/image-8.png)]
 
 Selecteer nu een map van schijf waarin de te importeren data staat, door te klikken op de knop met "...":
 
-[![](images/image-9.png)](https://www.codingconnected.eu/wp-content/uploads/2021/11/image-9.png)
+[![](images/image-9.png)]
 
 _Merk op:_ de data mag binnen de gekozen map in submappen staan, en eventueel verder verdeeld. Belangrijk is hierbij wel dat de bestanden in een (al dan niet onderliggende) map op volgorde staan van tijd. Wanneer de VLOG standaard wordt gevolgd voor wat betreft naamgeving van bestanden is dit altijd zo.
 
@@ -19,7 +19,7 @@ _Let op:_ data waarbij één bestand meerdere dagen omvat kan problemen oplevere
 
 Na het kiezen van een map wordt de data uit de map uitgelezen. Dit al naar gelang de hoeveelheid data in de map tussen enkele seconden en enkele minuten in beslag nemen. Is de data geladen, dan verschijnt het volgende scherm:
 
-[![](images/image-10-824x1024.png)](https://www.codingconnected.eu/wp-content/uploads/2021/11/image-10.png)
+[![](images/image-10-824x1024.png)]
 
 Deze weergave bestaat uit een aantal elementen die hieronder worden toegelicht.
 

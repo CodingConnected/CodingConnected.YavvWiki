@@ -3,7 +3,7 @@ title: "Analyse: intensiteit fietsers"
 date: 2020-09-04
 ---
 
-Intensiteit wordt in YAVV/YAVC bepaald middels tellen op de koplus: [zie hier](https://www.codingconnected.eu/yavvwiki/analyse/analyse-intensiteit/). Voor fietsers geeft deze manier van meten niet altijd het juiste of beste beeld: fietsers kunnen zich als groep opstellen bij de stopstreep, waardoor mogelijk meerdere fietsers als één fietser worden geteld.
+Intensiteit wordt in YAVV/YAVC bepaald middels tellen op de koplus: [zie hier](../analyse-intensiteit/index.md). Voor fietsers geeft deze manier van meten niet altijd het juiste of beste beeld: fietsers kunnen zich als groep opstellen bij de stopstreep, waardoor mogelijk meerdere fietsers als één fietser worden geteld.
 
 De intensiteitsmeting speciaal voor fietsers biedt de mogelijkheid meer inzicht te krijgen in de werkelijke intensiteit op fietsrichtingen. De analyse kijkt hiertoe naar het op een richting aanwezige detectieveld, en maakt gebruik van de lussen die het beste beeld geven. Dit werkt als volgt:
 

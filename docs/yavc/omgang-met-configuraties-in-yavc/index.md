@@ -5,7 +5,7 @@ date: 2020-05-28
 
 Bij VLOG data hoort een configuratie. Zonder configuratie is bijvoorbeeld onbekend welk voertuigtype een bepaalde signaalgroep heeft, welke lus welk type heeft, bij welke signaalgroep die hoort, en waar die precies ligt, etc. Die type informatie is echter noodzakelijk om de data correct te kunnen visualiseren in de fasenlog, en correct filtering en analyses uit te kunnen voeren.
 
-Dit artikel omschrijft de manier waarop binnen YAVC (grotendeels automatisch) wordt omgegaan met configuraties. Zie voor concrete analyse instellingen per kruising [dit artikel](https://www.codingconnected.eu/yavvwiki/yavc/kruispunten-configureren-in-yavc/).
+Dit artikel omschrijft de manier waarop binnen YAVC (grotendeels automatisch) wordt omgegaan met configuraties. Zie voor concrete analyse instellingen per kruising [dit artikel](../kruispunten-configureren-in-yavc/index.md).
 
 ## Samenvatting:
 
@@ -38,12 +38,12 @@ Daarom enige tips omtrent het al dan niet herberekenen van data:
     - Signaalgroepen:
         - wijzigen aantal rijstroken
         - type
-        - geeltijd (enkel voor [wachten zonder reden](https://www.codingconnected.eu/yavvwiki/analyse/analyse-wachten-zonder-reden/))
+        - geeltijd (enkel voor [wachten zonder reden](../../analyse/analyse-wachten-zonder-reden/index.md))
     - Detectoren:
         - wijzigen signaalgroep
         - rijstrook
         - type
-        - ligging: dit is enkel relevant wanneer daardoor de volgorde wijzigt, behalve voor de analyse "[gemiddelde wachttijd fiets](https://www.codingconnected.eu/yavvwiki/analyse/analyse-gemiddelde-wachttijd-fietsers/)", waarbij de ligging van verweg detectie invloed heeft op de resultaten
+        - ligging: dit is enkel relevant wanneer daardoor de volgorde wijzigt, behalve voor de analyse "[gemiddelde wachttijd fiets](../../analyse/analyse-gemiddelde-wachttijd-fietsers/index.md)", waarbij de ligging van verweg detectie invloed heeft op de resultaten
     - Handmatige toedeling DSI: van belang voor de analyses OV inm. tot uitm. en OV inm. tot SG
     - Wijzigingen aan instellingen van een of meer filters: dit heeft invloed op álle data, want wijzigt mogelijk de feitelijke brondata zoals de analyses die te zien krijgen
     - Wijzigingen aan instellingen van een analyse: enkel van belang voor de betreffende analyse
@@ -89,4 +89,4 @@ Indien een configuratie wordt verwijderd, dan wordt de bijbehorende filtering en
 
 ## Instellingen bewerken en opslaan
 
-Dit wordt uitgebreid omschreven in [dit artikel](https://www.codingconnected.eu/yavvwiki/yavc/kruispunten-configureren-in-yavc/).
+Dit wordt uitgebreid omschreven in [dit artikel](../kruispunten-configureren-in-yavc/index.md).

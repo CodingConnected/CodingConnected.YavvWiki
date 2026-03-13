@@ -11,7 +11,7 @@ _Let op!_ Om een kruispunt toe te kunnen voegen in YAVC is het niveau van systee
 
 Klik op “toevoegen” om een kruispunt toe te voegen. Er verschijnt een dialoogvenster waarin de naam voor de kruising kan worden opgegeven.
 
-[![](images/image-11.png)](https://www.codingconnected.eu/wp-content/uploads/2021/11/image-11.png)
+[![](images/image-11.png)]
 
 _Let op!_ Dit betreft de **interne naam**, en deze is later niet meer te wijzigen. Deze interne naam wordt gebruikt in systeem logging van YAVC, en voor het aanmaken van mappen voor tijdelijke opslag van data, en archivering. Naast deze interne naam is er een apart veld waarin de weer te geven naam van de kruising kan worden ingesteld; dit kan wél worden gewijzigd.
 
@@ -61,7 +61,7 @@ Er zijn een aantal YAVC specifieke instellingen beschikbaar:
     
     - Check VLOG header: het komt voor dat de header van VLOG files incompleet is, door de afwezigheid van bepaalde elementen in de header. Dit veroorzaakt het aanmaken van een nieuwe analyse configuratie, terwijl er eigenlijk geen sprake is van een wijziging, maar van een fout in de data. Door dit aan te vinken wordt hierop gecontroleerd voor de nadien aangevinkte elementen. Invalide data komt vervolgens niet in YAVC
 
-- Extra meta data: hier kunnen door de gebruiker zelf gespecificeerde velden worden gevuld met data. Zie hiervoor [dit artikel](https://www.codingconnected.eu/yavvwiki/yavc/werken-met-meta-data/).
+- Extra meta data: hier kunnen door de gebruiker zelf gespecificeerde velden worden gevuld met data. Zie hiervoor [dit artikel](../werken-met-meta-data/index.md).
 
 ### Connectie configuratie
 
@@ -136,11 +136,11 @@ Het is (sinds versie 3.5 van YAVC client) mogelijk bij optreden van een fout in 
     
     - De automatische switch functionaliteit doet verder niets met alerts/issues, die blijven dus actief, tot er weer data binnenkomt en ze automatisch op non-actief gaan
 
-- Merk nog op: de verbinding voor "[ophalen andere data](https://www.codingconnected.eu/yavvwiki/yavc/ophalen-niet-vlog-data/)" (indien ingesteld) switcht momenteel _niet_ mee.
+- Merk nog op: de verbinding voor "[ophalen andere data](../ophalen-niet-vlog-data/index.md)" (indien ingesteld) switcht momenteel _niet_ mee.
 
 ### Analyse configuratie
 
-YAVC maakt automatisch analyse configuraties aan bij binnenkomst van de data. Dit is [hier](https://www.codingconnected.eu/yavvwiki/yavc/omgang-met-configuraties-in-yavc/) nader omschreven. Per analyse configuratie zijn hier de instellingen aan te passen. Tevens kunnen configuraties hier worden gevalideerd.
+YAVC maakt automatisch analyse configuraties aan bij binnenkomst van de data. Dit is [hier](../omgang-met-configuraties-in-yavc/index.md) nader omschreven. Per analyse configuratie zijn hier de instellingen aan te passen. Tevens kunnen configuraties hier worden gevalideerd.
 
 _Let op!_ Het is normaal gesproken nooit nodig handmatig analyse configuraties aan te maken; het is doorgaans beter dit over te laten aan YAVC. Daarom: treedt vóór het handmatig aanpassen (toevoegen/verwijderen) van analyse configuraties bij voorkeur en indien mogelijk in overleg met CodingConnected; we bepalen dan gezamenlijk de beste aanpak.
 
@@ -169,11 +169,11 @@ _Tip:_ is het wenselijk voor een bepaalde kruising data met andere analyse inste
 
 Bij signaalgroepen is het type het belangrijkste: dit bepaalt welke analyses voor deze signaalgroep wel/niet zullen worden uitgevoerd. Ook het aantal rijbanen is hier van belang, omdat dit invloed heeft op sommige analyses, en omdat detectoren moeten worden toegedeeld aan de juiste rijbaan.
 
-Geeltijden zijn momenteel enkel van belang voor de analyse [wachten zonder reden](https://www.codingconnected.eu/yavvwiki/analyse/analyse-wachten-zonder-reden/).
+Geeltijden zijn momenteel enkel van belang voor de analyse [wachten zonder reden](../../analyse/analyse-wachten-zonder-reden/index.md).
 
 #### Conflicten
 
-Conflicten zijn van belang voor het bepalen van "[wachten zonder reden](https://www.codingconnected.eu/yavvwiki/analyse/analyse-wachten-zonder-reden/)". Ze kunnen handmatig worden opgegeven, het is echter aan te bevelen de conflicten middels een "tab.c" file in te laden. Dit kan zijn een CCOL bestand, maar een export bestand vanuit [CalcIt](https://www.codingconnected.eu/software/calcit/) of Otto is ook prima. Let op selectie van het juiste type tijden!
+Conflicten zijn van belang voor het bepalen van "[wachten zonder reden](../../analyse/analyse-wachten-zonder-reden/index.md)". Ze kunnen handmatig worden opgegeven, het is echter aan te bevelen de conflicten middels een "tab.c" file in te laden. Dit kan zijn een CCOL bestand, maar een export bestand vanuit [CalcIt](https://www.codingconnected.eu/software/calcit/) of Otto is ook prima. Let op selectie van het juiste type tijden!
 
 #### Detectoren
 
@@ -185,7 +185,7 @@ _Let op!_ Zorg er dus voor dat:
     - Instellen van lussen die feitelijk niet kop, lang of verweglussen zijn op dit type heeft mogelijk onbedoeld nadelige effecten op de filtering, en daarmee op de analyse uitkomsten
 
 - _de volgorde_ klopt: de exacte ligging van detectoren is niet cruciaal, wat echter wel belangrijk is, is te zorgen dat de volgorde (per rijstrook) overstemt met de situatie op straat: er wordt namelijk gefilterd op volgorde, en een foutieve configuratie kan daarmee onbedoeld de filtering en daarmee de analyse uitkomsten beïnvloeden
-    - _een uitzondering_ is de analyse "[gemiddelde wachttijd fiets](https://www.codingconnected.eu/yavvwiki/analyse/analyse-gemiddelde-wachttijd-fietsers/)": hier worden meldingen op de verweg detectie gebruikt om in te schatten wanneer fietsers bij de stopstreer arriveren; daarbij is de min of meer exacte ligging dus wel van belang (waarbij 1 of 2 meter afwijking alsnog weinig uit maakt; het betreft hoe dan ook een inschatting)
+    - _een uitzondering_ is de analyse "[gemiddelde wachttijd fiets](../../analyse/analyse-gemiddelde-wachttijd-fietsers/index.md)": hier worden meldingen op de verweg detectie gebruikt om in te schatten wanneer fietsers bij de stopstreer arriveren; daarbij is de min of meer exacte ligging dus wel van belang (waarbij 1 of 2 meter afwijking alsnog weinig uit maakt; het betreft hoe dan ook een inschatting)
 
 - de _toedeling aan rijstroken_ klopt: ook hier geldt dat een foutieve toedeling de volgorde filters onbedoeld in de war kan brengen
 
@@ -193,7 +193,7 @@ Hiaat en bezettijden worden momenteel uitsluitend benut voor visualisatie in de 
 
 #### Selectieve detectie
 
-Hier kunnen detectoren die in de DSI berichten voor komen worden geconfigureerd. Dit zorgt voor het juist kunnen toedelen van DSI berichten zonder signaalgroepnummer aan signaalgroepen. Dit wordt gebruikt voor de visualisatie in de fasenlog en de analyses [DSI-in tot startgroen](https://www.codingconnected.eu/yavvwiki/analyse/analyse-tijd-inmelding-tot-groen-ov/) en [DSI-in tot DSI-uit](https://www.codingconnected.eu/yavvwiki/analyse/analyse-tijd-inmelding-tot-uitmelding-ov/).
+Hier kunnen detectoren die in de DSI berichten voor komen worden geconfigureerd. Dit zorgt voor het juist kunnen toedelen van DSI berichten zonder signaalgroepnummer aan signaalgroepen. Dit wordt gebruikt voor de visualisatie in de fasenlog en de analyses [DSI-in tot startgroen](../../analyse/analyse-tijd-inmelding-tot-groen-ov/index.md) en [DSI-in tot DSI-uit](../../analyse/analyse-tijd-inmelding-tot-uitmelding-ov/index.md).
 
 #### Ingangen en uitgangen
 
@@ -222,7 +222,7 @@ Hier kunnen per analyse en filter de instellingen worden geregeld. Zie voor uitl
 Momenteel is hier beschikbaar:
 
 - DSI: hier kan worden bepaald dat het toedelen van DSI berichten aan signaalgroepen handmatig moet. Is dit het geval, dan kan in de lijst worden aangegeven welke DSI-signaalgroep-naam hoort bij welke signaalgroep. Dit is bijvoorbeeld handig wanneer de regeling 1## en 2## richtingen bevat, terwijl de max voor richtingnummers in de DSI data 200 is: in dit geval kan bv DSI-sg-naam 45 worden gekoppeld aan 245, terwijl 145 wel 1-op-1 kan worden gekoppeld.
-    - Deze instellingen worden, indien aanwezig, gebruikt voor de visualisatie in de fasenlog en de analyses [DSI-in tot startgroen](https://www.codingconnected.eu/yavvwiki/analyse/analyse-tijd-inmelding-tot-groen-ov/) en [DSI-in tot DSI-uit](https://www.codingconnected.eu/yavvwiki/analyse/analyse-tijd-inmelding-tot-uitmelding-ov/).
+    - Deze instellingen worden, indien aanwezig, gebruikt voor de visualisatie in de fasenlog en de analyses [DSI-in tot startgroen](../../analyse/analyse-tijd-inmelding-tot-groen-ov/index.md) en [DSI-in tot DSI-uit](../../analyse/analyse-tijd-inmelding-tot-uitmelding-ov/index.md).
 
 #### VLOGCFG
 
